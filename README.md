@@ -10,6 +10,7 @@ A custom wireless, Choc-spaced replacement PCB prototype for a **42-key Corne-is
 
 - [ChatGPT handoff — full context, pin tables, decisions and next steps](docs/CHATGPT-HANDOFF.md)
 - [Start a new ChatGPT conversation](docs/START-HERE.md)
+- [Download the ChatGPT upload ZIP](docs/zenR4-pcb-chatgpt-handoff.zip) — 2.4 MiB, including seven PNGs and native schematic/board files
 - [Layout and mechanical notes](r4-layout/README.md)
 - [Final check snapshot and hashes](r4-layout/checks/validation.json)
 - [Annotated images](docs/images/) and [direct schematic exports](docs/schematics/)

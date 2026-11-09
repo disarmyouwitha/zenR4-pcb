@@ -1,6 +1,6 @@
 # Use this with ChatGPT tomorrow
 
-Upload **CHATGPT-HANDOFF.md** first. Add **01-layout-annotated.png**, **02-system-and-power.png** and **03-nano-top-view-pinmap.png** from `images/`. For a detailed schematic question, also attach `left-controller-detail.png`, `right-controller-detail.png` or either full schematic PNG.
+Download `zenR4-pcb-chatgpt-handoff.zip` from this folder (GitHub → Download raw file) and unpack it if needed. Upload **CHATGPT-HANDOFF.md** first. Add **01-layout-annotated.png**, **02-system-and-power.png** and **03-nano-top-view-pinmap.png** from `images/`. For a detailed schematic question, also attach `left-controller-detail.png`, `right-controller-detail.png` or either full schematic PNG.
 
 The private GitHub URL may not be readable from another ChatGPT session. Uploading the files provides the actual context. The handoff document includes every critical pin assignment in text; diagrams supplement it.
 
