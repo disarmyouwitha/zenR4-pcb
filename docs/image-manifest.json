@@ -1,0 +1,34 @@
+{
+  "snapshot_utc": "2026-11-09T13:12:18.646269+00:00",
+  "board_hash_snapshot": "../r4-layout/checks/validation.json",
+  "images": {
+    "right-controller-detail.png": {
+      "bytes": 174381,
+      "sha256": "0758da53cbc9b89534c41b250c94dd9d9bf422350a77dbf7eaf2cf60ee565b25"
+    },
+    "01-layout-annotated.png": {
+      "bytes": 352844,
+      "sha256": "ad591f36985f0cab3d262a7ed92e4c2162ccb96ed954b85a2c30f49fa670cd01"
+    },
+    "03-nano-top-view-pinmap.png": {
+      "bytes": 219423,
+      "sha256": "e87d9b6eac5538c48992a28c304b7020c8dbcf6a84d54ffae9785164c54c7a6c"
+    },
+    "left-controller-detail.png": {
+      "bytes": 245798,
+      "sha256": "39466b1b0229ab202a5caba830a233f3369af4ef8af817134bdf30e8731a97a7"
+    },
+    "right-schematic-full.png": {
+      "bytes": 517102,
+      "sha256": "5e039ed4003815a072a64a2a427d6850b117cd0e5cfa947a1cb466b374477402"
+    },
+    "02-system-and-power.png": {
+      "bytes": 203836,
+      "sha256": "3ea88713a01fdc2d07d62583edc91dd6975cd9e7383902607fe3517c186d4f13"
+    },
+    "left-schematic-full.png": {
+      "bytes": 593893,
+      "sha256": "78e256c79ec2e2128a216b4754f02a913bfb27b3ad029258b1c484902004027c"
+    }
+  }
+}

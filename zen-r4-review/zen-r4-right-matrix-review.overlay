@@ -1,0 +1,29 @@
+/* Review overlay for nice_nano//zmk + corne_right at the pinned baseline.
+ * Both PCBs use the tested left pinout, with C0 at the outside on each half.
+ * ZMK scans the right columns seam to outside, so reverse the PCB net order.
+ * No display enabled. D2, D3 and D4 are reserved in the pin contract.
+ */
+#include <zephyr/dt-bindings/gpio/gpio.h>
+
+&kscan0 {
+    diode-direction = "col2row";
+    row-gpios = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+        <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+        <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+        <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+    col-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>,
+        <&pro_micro 0 GPIO_ACTIVE_HIGH>,
+        <&pro_micro 14 GPIO_ACTIVE_HIGH>,
+        <&pro_micro 15 GPIO_ACTIVE_HIGH>,
+        <&pro_micro 18 GPIO_ACTIVE_HIGH>,
+        <&pro_micro 19 GPIO_ACTIVE_HIGH>;
+};
+
+&pro_micro_i2c { status = "disabled"; };
+&uart0 { status = "disabled"; };
+&spi1 { status = "disabled"; };
+/ {
+    chosen {
+        /delete-property/ zephyr,display;
+    };
+};

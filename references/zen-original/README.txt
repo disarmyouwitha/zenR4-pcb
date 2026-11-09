@@ -1,0 +1,4 @@
+Corne-ish Zen 3D PCB & Case files by darryldh on Thingiverse: https://www.thingiverse.com/thing:4698210
+
+Summary:
+This is the PCB for the Corne-ish Zen wireless split mechanical keyboard, for those who would like to design their own case for it. it is 100% actual size and has all the correct components in place so you can design your case around them.The case files are the actual files used to make the production Corne-ish Zen. They have been optimized for CNC machining, but print out just fine. If you have any questions, the quickest response will be in the Lowprokb Discord server in the Corne-ish Zen channel:https://discord.gg/zgWd9k5nSP

@@ -1,0 +1,258 @@
+{
+  "firmware_baseline": "cb3ccc8720a496fba8d877784345c6b120a0b999",
+  "status": "Historical GPIO contract; routed current projects and status in ../r4-layout/ and ../docs/CHATGPT-HANDOFF.md",
+  "left_matrix": {
+    "ROW0": {
+      "edge_label": "D8",
+      "gpio": "P1.04",
+      "review_U1_pad": 11,
+      "QIAA_ball": "U24"
+    },
+    "ROW1": {
+      "edge_label": "D9",
+      "gpio": "P1.06",
+      "review_U1_pad": 12,
+      "QIAA_ball": "R24"
+    },
+    "ROW2": {
+      "edge_label": "D21",
+      "gpio": "P0.31",
+      "review_U1_pad": 17,
+      "QIAA_ball": "A8"
+    },
+    "ROW3": {
+      "edge_label": "D20",
+      "gpio": "P0.29",
+      "review_U1_pad": 18,
+      "QIAA_ball": "A10"
+    },
+    "COL0": {
+      "edge_label": "D19",
+      "gpio": "P0.02",
+      "review_U1_pad": 19,
+      "QIAA_ball": "A12"
+    },
+    "COL1": {
+      "edge_label": "D18",
+      "gpio": "P1.15",
+      "review_U1_pad": 20,
+      "QIAA_ball": "A14"
+    },
+    "COL2": {
+      "edge_label": "D15",
+      "gpio": "P1.13",
+      "review_U1_pad": 21,
+      "QIAA_ball": "A16"
+    },
+    "COL3": {
+      "edge_label": "D14",
+      "gpio": "P1.11",
+      "review_U1_pad": 22,
+      "QIAA_ball": "B19"
+    },
+    "COL4": {
+      "edge_label": "D0",
+      "gpio": "P0.08",
+      "review_U1_pad": 2,
+      "QIAA_ball": "N1"
+    },
+    "COL5": {
+      "edge_label": "D1",
+      "gpio": "P0.06",
+      "review_U1_pad": 1,
+      "QIAA_ball": "L1"
+    }
+  },
+  "left_qspi": {
+    "FLASH_CS_N": {
+      "edge_label": "D2",
+      "gpio": "P0.17",
+      "review_U1_pad": 5,
+      "QIAA_ball": "AD12",
+      "U2_pad": 1
+    },
+    "FLASH_CLK": {
+      "edge_label": "D4",
+      "gpio": "P0.22",
+      "review_U1_pad": 7,
+      "QIAA_ball": "AD18",
+      "U2_pad": 6
+    },
+    "FLASH_IO0": {
+      "edge_label": "D5",
+      "gpio": "P0.24",
+      "review_U1_pad": 8,
+      "QIAA_ball": "AD20",
+      "U2_pad": 5
+    },
+    "FLASH_IO1": {
+      "edge_label": "D6",
+      "gpio": "P1.00",
+      "review_U1_pad": 9,
+      "QIAA_ball": "AD22",
+      "U2_pad": 2
+    },
+    "FLASH_IO2": {
+      "edge_label": "D7",
+      "gpio": "P0.11",
+      "review_U1_pad": 10,
+      "QIAA_ball": "T2",
+      "U2_pad": 3
+    },
+    "FLASH_IO3": {
+      "edge_label": "D3",
+      "gpio": "P0.20",
+      "review_U1_pad": 6,
+      "QIAA_ball": "AD16",
+      "U2_pad": 7
+    }
+  },
+  "left_qspi_supply": {
+    "U1_edge_VCC_pad": 16,
+    "U2_VCC_pad": 8,
+    "U2_GND_pad": 4,
+    "net": "3V3_SW",
+    "module_internal_control": "P0.13 (not a carrier connection)",
+    "integrated_enable_candidate": {
+      "gpio": "P0.13",
+      "QIAA_ball": "AD8",
+      "note": "Dedicated switched regulated 3.3 V, enable polarity to match selected switch and firmware."
+    }
+  },
+  "right_matrix": {
+    "ROW0": {
+      "edge_label": "D8",
+      "gpio": "P1.04",
+      "review_U1_pad": 11,
+      "QIAA_ball": "U24"
+    },
+    "ROW1": {
+      "edge_label": "D9",
+      "gpio": "P1.06",
+      "review_U1_pad": 12,
+      "QIAA_ball": "R24"
+    },
+    "ROW2": {
+      "edge_label": "D21",
+      "gpio": "P0.31",
+      "review_U1_pad": 17,
+      "QIAA_ball": "A8"
+    },
+    "ROW3": {
+      "edge_label": "D20",
+      "gpio": "P0.29",
+      "review_U1_pad": 18,
+      "QIAA_ball": "A10"
+    },
+    "COL0": {
+      "edge_label": "D19",
+      "gpio": "P0.02",
+      "review_U1_pad": 19,
+      "QIAA_ball": "A12"
+    },
+    "COL1": {
+      "edge_label": "D18",
+      "gpio": "P1.15",
+      "review_U1_pad": 20,
+      "QIAA_ball": "A14"
+    },
+    "COL2": {
+      "edge_label": "D15",
+      "gpio": "P1.13",
+      "review_U1_pad": 21,
+      "QIAA_ball": "A16"
+    },
+    "COL3": {
+      "edge_label": "D14",
+      "gpio": "P1.11",
+      "review_U1_pad": 22,
+      "QIAA_ball": "B19"
+    },
+    "COL4": {
+      "edge_label": "D0",
+      "gpio": "P0.08",
+      "review_U1_pad": 2,
+      "QIAA_ball": "N1"
+    },
+    "COL5": {
+      "edge_label": "D1",
+      "gpio": "P0.06",
+      "review_U1_pad": 1,
+      "QIAA_ball": "L1"
+    }
+  },
+  "right_display_reservation_only": {
+    "VIEW_CS_ACTIVE_HIGH": {
+      "edge_label": "D4",
+      "gpio": "P0.22",
+      "review_U1_pad": 7,
+      "QIAA_ball": "AD18"
+    },
+    "VIEW_MOSI": {
+      "edge_label": "D2",
+      "gpio": "P0.17",
+      "review_U1_pad": 5,
+      "QIAA_ball": "AD12"
+    },
+    "VIEW_SCK": {
+      "edge_label": "D3",
+      "gpio": "P0.20",
+      "review_U1_pad": 6,
+      "QIAA_ball": "AD16"
+    }
+  },
+  "display_in_module_schematic": false,
+  "mechanical_plan": {
+    "original_v2_PCB_thickness_mm_user_measured": 1.65,
+    "replacement_thickness": "1.6 mm nominal draft; original V2 measured 1.65 mm",
+    "viewing_window_mm_user_measured": [
+      22.46,
+      14.0
+    ],
+    "original_PCB_openings": "battery only; no display cutout",
+    "controller_mount": "backside on socket/component side, edge contacts only",
+    "socket_and_case_fit": "user confirms Typeractive Choc sockets clear original base and case closes after PCB boss reliefs",
+    "controller_fit": "user confirms underside nice!nano fits with modified plastic base",
+    "custom_geometry": "Zen thumb centers, mount bosses and perimeter reliefs; Typeractive main grid reference",
+    "plastic_base": "redesign permitted for controller, battery and optional display clearance",
+    "optional_display": "cropped view acceptable; finalize recessed placement and solder access before adding footprint",
+    "status": "Routed draft passed native rules/parity; physical V2 fit, assembly and hardware validation pending"
+  },
+  "column_convention": {
+    "left": "outside to seam",
+    "right": "outside to seam"
+  },
+  "right_firmware_scan": {
+    "columns": [
+      "COL5",
+      "COL4",
+      "COL3",
+      "COL2",
+      "COL1",
+      "COL0"
+    ],
+    "global_col_offset": 6,
+    "thumb_scan_cells": [
+      "R3C0",
+      "R3C1",
+      "R3C2"
+    ]
+  },
+  "populated_thumb_cells": {
+    "left": [
+      "R3C3",
+      "R3C4",
+      "R3C5"
+    ],
+    "right": [
+      "R3C3",
+      "R3C4",
+      "R3C5"
+    ]
+  },
+  "integrated_candidate": {
+    "package": "nRF52840-QIAA aQFN73",
+    "display_spi": "right SPIM0 candidate; no routed display",
+    "board_definition": "not made; clock, supply, RF, USB and bootloader review required"
+  }
+}

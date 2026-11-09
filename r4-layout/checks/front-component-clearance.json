@@ -1,0 +1,24 @@
+{
+  "U2": {
+    "samples": 247,
+    "nominal_height_assumed_mm": 2.16,
+    "minimum_sampled_headroom_mm": null,
+    "all_samples_in_open_window": true,
+    "interference_at_sample": false
+  },
+  "C1": {
+    "samples": 247,
+    "nominal_height_assumed_mm": 1.0,
+    "minimum_sampled_headroom_mm": null,
+    "all_samples_in_open_window": true,
+    "interference_at_sample": false
+  },
+  "R1": {
+    "samples": 247,
+    "nominal_height_assumed_mm": 0.65,
+    "minimum_sampled_headroom_mm": 0.3200000000000002,
+    "all_samples_in_open_window": false,
+    "interference_at_sample": false
+  },
+  "scope": "Grid sample of early archived shell only. Exact part height, solder and physical V2 remain to verify."
+}

@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-11-09T08:56:49.642480+00:00",
+  "status": "Routed engineering prototype; physical fit and hardware validation pending",
+  "halves": {
+    "left": {
+      "erc": 0,
+      "drc": 0,
+      "unconnected": 0,
+      "schematic_parity": 0,
+      "sha256": {
+        "zen-r4-left.kicad_pcb": "f19ef957139221123e53ef1d6b222033ba358a18d25a17c0f3df1faee1ba047d",
+        "zen-r4-left.kicad_sch": "3faf4189634d7078c085b1f7f729d7261b60afb46cd29b92300d6dd3fb5e0f89"
+      }
+    },
+    "right": {
+      "erc": 0,
+      "drc": 0,
+      "unconnected": 0,
+      "schematic_parity": 0,
+      "sha256": {
+        "zen-r4-right.kicad_pcb": "db4ec42f6650eff302601f4c89e5be8803079d02df4a8813fcecfe219bf2e54b",
+        "zen-r4-right.kicad_sch": "7eb0c4c4911992a70e1d4ca0d63f9037fa207ee54a48dc493078faa11500dcc1"
+      }
+    }
+  }
+}

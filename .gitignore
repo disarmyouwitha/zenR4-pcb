@@ -1,0 +1,18 @@
+# KiCad local state and lock/backup files
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+*.bak
+.DS_Store
+__pycache__/
+*.pyc
+# Local Python/Node/tool runtimes
+analysis-tools/python/
+analysis-tools/render-python/
+analysis-tools/mesh-python/
+analysis-tools/node_modules/
+analysis-tools/freerouting/
+.venv/
+# Generated upload bundles live outside version control
+*.zip

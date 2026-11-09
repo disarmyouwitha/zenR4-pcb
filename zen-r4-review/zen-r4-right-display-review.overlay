@@ -1,0 +1,21 @@
+/* Build check only: use corne_right nice_view_adapter nice_view with the
+ * baseline right-nice-view.conf. Do not use on the stock Ultralight.
+ * Use this overlay by itself; it includes the custom right matrix.
+ */
+#include "zen-r4-right-matrix-review.overlay"
+
+&nice_view_spi {
+    cs-gpios = <&pro_micro 4 GPIO_ACTIVE_HIGH>;
+};
+
+/ {
+    chosen {
+        zephyr,display = &nice_view;
+    };
+    behaviors {
+        zrst: zrst {
+            compatible = "zmk,behavior-zen-r4-status";
+            #binding-cells = <2>;
+        };
+    };
+};

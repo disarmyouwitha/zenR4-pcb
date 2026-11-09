@@ -1,0 +1,10 @@
+{
+  "left": {
+    "schematic_net_memberships_checked": 42,
+    "mismatches": {}
+  },
+  "right": {
+    "schematic_net_memberships_checked": 35,
+    "mismatches": {}
+  }
+}

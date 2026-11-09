@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/nap/Documents/new_code/corneish-zen-replacement/r4-layout/zen-r4-right.kicad_sch</source>
+    <date>2026-11-09T02:35:07</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>zen-r4-right-nano</title>
+        <company/>
+        <rev>DRAFT A layout review</rev>
+        <date/>
+        <source>zen-r4-right.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96c16561-9ce9-545f-806f-d87ef1e94743</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d204a220-f79a-5233-b272-4fe4f54b1b50</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a26bcca6-bd62-51f9-be1c-35f9047be9a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48ee2c44-8be6-5f83-8073-db7180ba9095</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5d49dd2-5318-5dbc-94e8-b5ba7d90b050</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78abc192-6df1-509b-8596-556165b7c6b4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12a07031-d397-5358-ad6f-525c2a98d520</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4675b81f-80f7-5497-9fd3-a930d2f75fdd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62d4d585-cd3c-59a3-801f-0870e186955b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8351ab72-8b64-5551-8364-1628bb2c3c94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>049dd5b7-33fd-5c44-848e-f05e74687570</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50b3afa8-1a8a-557e-ba23-cf6f1b5c3471</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>937e0301-1407-574b-9dba-022f79916a3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5039d70b-77c3-5048-ae64-78cdbd2ad3f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2918f6dc-0a7b-5c4a-98d8-30cf1accfe9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d133dfb5-aec1-5135-8078-9cdc92de3a65</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98222bb0-fe3c-5618-b7b3-1525d6db88df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6df1bd4d-b97f-5a3a-a789-0a50641f806c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c685bb75-282c-5d14-9183-1a8692feb829</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>facfae4d-fd24-596c-8324-0fda22f3cb87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148W</value>
+      <footprint>ZenR4:D_SOD-123__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:D_SOD-123__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Diode" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fce49586-c965-572a-9be4-425688a90156</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>1S LiPo connection</value>
+      <footprint>ZenR4:Battery_wire_pads</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Battery_wire_pads</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Battery" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c5da193-0ca3-526b-8c7a-7a2b9842ea61</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c167d6c5-b765-570f-9e68-925766a518ab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2898b2c6-7737-575c-aa78-5b12c9f37848</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW3">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d05257e7-7f82-57a1-ba7d-e4fdbe70439f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW4">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fa88875-b503-5e07-8ff4-481c70e74dbf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW5">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9c935fe-009f-53eb-ae38-bf093afee8ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW6">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8baec9d6-ae73-5c03-9976-d832d3ecfe0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW7">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f800c86-63e4-56de-b8c9-18897c63cb0a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW8">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>195f7227-0659-5d76-a513-3e59589f2d4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW9">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e076a309-93db-516a-bcf9-bebac5c633cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW10">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b5e7252-d21a-5be8-bf11-9611d7bcf6b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW11">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>210d86b4-500d-54a4-8f30-c777b25d9a52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW12">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e208a98-bccf-5c77-8807-b480bf269c70</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW13">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bd6c899-2cbd-5143-a3ae-5e6cd25fcb15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW14">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32da6dd2-6c8f-5721-ac08-59b491ee1a99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW15">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1913ebeb-a119-56f4-83f1-d5c8f870bb93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW16">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>301d22ec-0863-5718-869b-5d9d922be2ab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW17">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76126f80-b412-5e3d-be3a-4016d4f4458e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW18">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>504472aa-471d-58f5-b98c-b612c86c13b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW19">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c9b9707-c983-514c-9915-239f5dd379cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW20">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23663eb5-e5f8-5b64-8656-af26a93d97a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW21">
+      <value>Choc socket</value>
+      <footprint>ZenR4:Choc_PG1350_bottom</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:Choc_PG1350_bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb9d69e3-a8d4-57c8-8ad2-8604283cc853</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW22">
+      <value>PCM12: 2 common, 3 ON; 1 NC</value>
+      <footprint>ZenR4:SW_SPDT_PCM12__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:SW_SPDT_PCM12__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Power23" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2696408-230c-5ce6-9e4d-2d4db3638c30</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW23">
+      <value>Reset switch</value>
+      <footprint>ZenR4:SW_SPST_TL3342__NoSilk</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:SW_SPST_TL3342__NoSilk</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Switch" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14d991da-d071-556f-ac44-e1d2ed88836b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>nice!nano v2 (edge only)</value>
+      <footprint>ZenR4:NiceNano_v2_edges</footprint>
+      <fields>
+        <field name="Footprint">ZenR4:NiceNano_v2_edges</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="R4Review" part="Nano_v2_edge" description=""/>
+      <property name="Sheetname" value="zen-r4-right"/>
+      <property name="Sheetfile" value="zen-r4-right.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdd6dacc-676f-58a4-8921-80a2aec5f34c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="R4Review" part="Battery">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Battery</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4Review" part="Diode">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Diode</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4Review" part="Nano_v2_edge">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Nano_v2_edge</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D1_P0.06" type="passive"/>
+        <pin num="2" name="D0_P0.08" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="D2_P0.17" type="passive"/>
+        <pin num="6" name="D3_P0.20" type="passive"/>
+        <pin num="7" name="D4_P0.22" type="passive"/>
+        <pin num="8" name="D5_P0.24" type="passive"/>
+        <pin num="9" name="D6_P1.00" type="passive"/>
+        <pin num="10" name="D7_P0.11" type="passive"/>
+        <pin num="11" name="D8_P1.04" type="passive"/>
+        <pin num="12" name="D9_P1.06" type="passive"/>
+        <pin num="13" name="RAW/B+" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="RESET" type="passive"/>
+        <pin num="16" name="VCC" type="power_out"/>
+        <pin num="17" name="D21_P0.31" type="passive"/>
+        <pin num="18" name="D20_P0.29" type="passive"/>
+        <pin num="19" name="D19_P0.02" type="passive"/>
+        <pin num="20" name="D18_P1.15" type="passive"/>
+        <pin num="21" name="D15_P1.13" type="passive"/>
+        <pin num="22" name="D14_P1.11" type="passive"/>
+        <pin num="23" name="D16_P0.10" type="passive"/>
+        <pin num="24" name="D10_P0.09" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4Review" part="Power23">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R4Review" part="Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="R4Review">
+      <uri>${KIPRJMOD}/r4-review.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BAT_RAW" class="Default">
+      <node ref="J1" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="SW22" pin="2" pinfunction="1_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/BAT_SW" class="Default">
+      <node ref="SW22" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="RAW/B+_13" pintype="passive"/>
+    </net>
+    <net code="3" name="/COL0" class="Default">
+      <node ref="SW12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="D19_P0.02_19" pintype="passive"/>
+    </net>
+    <net code="4" name="/COL1" class="Default">
+      <node ref="SW11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="D18_P1.15_20" pintype="passive"/>
+    </net>
+    <net code="5" name="/COL2" class="Default">
+      <node ref="SW10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="D15_P1.13_21" pintype="passive"/>
+    </net>
+    <net code="6" name="/COL3" class="Default">
+      <node ref="SW15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="D14_P1.11_22" pintype="passive"/>
+    </net>
+    <net code="7" name="/COL4" class="Default">
+      <node ref="SW14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="D0_P0.08_2" pintype="passive"/>
+    </net>
+    <net code="8" name="/COL5" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="D1_P0.06_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="SW23" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND_14" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND_4" pintype="passive"/>
+    </net>
+    <net code="10" name="/RESET_N" class="Default">
+      <node ref="SW23" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="RESET_15" pintype="passive"/>
+    </net>
+    <net code="11" name="/ROW0" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="D8_P1.04_11" pintype="passive"/>
+    </net>
+    <net code="12" name="/ROW1" class="Default">
+      <node ref="D10" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="D9_P1.06_12" pintype="passive"/>
+    </net>
+    <net code="13" name="/ROW2" class="Default">
+      <node ref="D13" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="D21_P0.31_17" pintype="passive"/>
+    </net>
+    <net code="14" name="/ROW3" class="Default">
+      <node ref="D19" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="D20_P0.29_18" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D2-A)" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D3-A)" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D4-A)" class="Default">
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D5-A)" class="Default">
+      <node ref="D5" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D6-A)" class="Default">
+      <node ref="D6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D7-A)" class="Default">
+      <node ref="D7" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D8-A)" class="Default">
+      <node ref="D8" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D9-A)" class="Default">
+      <node ref="D9" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D10-A)" class="Default">
+      <node ref="D10" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D11-A)" class="Default">
+      <node ref="D11" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D12-A)" class="Default">
+      <node ref="D12" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D13-A)" class="Default">
+      <node ref="D13" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D14-A)" class="Default">
+      <node ref="D14" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D15-A)" class="Default">
+      <node ref="D15" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D16-A)" class="Default">
+      <node ref="D16" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D17-A)" class="Default">
+      <node ref="D17" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D18-A)" class="Default">
+      <node ref="D18" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D19-A)" class="Default">
+      <node ref="D19" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D20-A)" class="Default">
+      <node ref="D20" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D21-A)" class="Default">
+      <node ref="D21" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(U1-D2_P0.17-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="D2_P0.17_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-D3_P0.20-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="D3_P0.20_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-D4_P0.22-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="D4_P0.22_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-D5_P0.24-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="D5_P0.24_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-D6_P1.00-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="D6_P1.00_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-D7_P0.11-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="D7_P0.11_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-D10_P0.09-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="D10_P0.09_24" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-D16_P0.10-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="D16_P0.10_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-VCC-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="VCC_16" pintype="power_out+no_connect"/>
+    </net>
+  </nets>
+</export>
