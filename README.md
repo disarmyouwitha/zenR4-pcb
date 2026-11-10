@@ -4,7 +4,7 @@
 
 ![Draft C](projects/choc-corne-flash/draft-c/placement-preview.png)
 
-Both nice!nanos mount on the front, components down. Our tested matrix and left QSPI are retained; the right has a real nice!view interface. Battery connections use back-side solder pads. This is a development draft, with routing/assembly review still required; it is not ready to manufacture.
+Both nice!nanos mount on the front, components down. Our tested matrix and left QSPI are retained; the right has a real nice!view interface. Battery connections use back-side solder pads. Both halves are routed and pass KiCad ERC, DRC, and schematic parity checks. Physical assembly still needs verification.
 
 Repository remains private; preserve [source attribution](ATTRIBUTION.md). The older Draft B information below is historical.
 

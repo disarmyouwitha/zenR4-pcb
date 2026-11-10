@@ -1,6 +1,6 @@
 {
   "revision": "draft-corne-c",
-  "status": "Draft C native schematics and placement implemented; see draft-c/validation.json for routing status",
+  "status": "Draft C fully routed and passes KiCad connectivity, DRC and ERC; assembly fit pending",
   "matrix": {
     "ROW0": {
       "edge_label": "D8",

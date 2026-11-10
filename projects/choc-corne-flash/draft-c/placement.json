@@ -5064,7 +5064,7 @@
         66.1005
       ]
     ],
-    "routing_status": "unrouted initial placement"
+    "routing_status": "routed and checked in KiCad"
   },
   "right": {
     "outline": [
@@ -6145,7 +6145,7 @@
         "library": "NiceView_Front_Header",
         "xy": [
           35.0836,
-          65.2985
+          67.0985
         ],
         "angle": 0,
         "layer": "F",
@@ -9884,7 +9884,7 @@
         "net": "/VIEW_MOSI",
         "xy": [
           30.0036,
-          65.2985
+          67.0985
         ],
         "size": [
           1.7,
@@ -9900,7 +9900,7 @@
         "net": "/VIEW_SCK",
         "xy": [
           32.5436,
-          65.2985
+          67.0985
         ],
         "size": [
           1.7,
@@ -9916,7 +9916,7 @@
         "net": "/3V3_SW",
         "xy": [
           35.0836,
-          65.2985
+          67.0985
         ],
         "size": [
           1.7,
@@ -9932,7 +9932,7 @@
         "net": "/GND",
         "xy": [
           37.623599999999996,
-          65.2985
+          67.0985
         ],
         "size": [
           1.7,
@@ -9948,7 +9948,7 @@
         "net": "/VIEW_CS_ACTIVE_HIGH",
         "xy": [
           40.163599999999995,
-          65.2985
+          67.0985
         ],
         "size": [
           1.7,
@@ -10089,6 +10089,6 @@
         66.068
       ]
     ],
-    "routing_status": "unrouted initial placement"
+    "routing_status": "routed and checked in KiCad"
   }
 }

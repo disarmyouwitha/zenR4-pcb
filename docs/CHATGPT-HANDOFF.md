@@ -4,11 +4,11 @@ Private GitHub: https://github.com/disarmyouwitha/zenR4-pcb/tree/drafts/draft-co
 
 Read `projects/choc-corne-flash/draft-c/README.md`, `validation.json`, the matching native KiCad schematic/PCB pairs and `placement-preview.png`. The owner confirmed **nice!nanos on FRONT, components facing DOWN**, matching Typeractive. Battery J1 uses back-side solder pads instead of JST. Left flash/support and actual right five-pin nice!view interface are now implemented in the schematics and placement. Geometry is 42-key Typeractive-style Choc, reconstructed from its public model, not Zen geometry or original vendor CAD.
 
-The earlier scope-only status below is superseded: a native Draft C now exists. It is a development draft, not fabrication-ready. Exact current ERC/DRC/parity/unconnected results and file hashes are in validation.json. Initial placement checks reported zero violations/parity issues, with all wiring still unrouted. Assembly height, antenna environment, exact purchased footprints, battery retention and final routing need review. Current working hardware/firmware is unchanged.
+Draft C is fully routed with filled ground planes on both layers. The right display header moved 1.8 mm toward the thumbs so its pads clear the carrier’s antenna keepout. The module and display stack, selected footprints and battery retention still need physical checks.
 
 U1 carrier pad1/D1 is on the RIGHT in top view with USB up, pad13/B+ on the LEFT, on both halves. Right J2 front left→right: MOSI D2, SCK D3, switched3V3, GND, active-high CS D4. This differs from the physical Ultralight D0 CS because D0 is our matrix column.
 
-Next conversation should focus on verifying the nano/display stack and completing/reviewing Draft C routing. Preserve our tested matrix/QSPI map below. RGB/art and integrated-chip/Zen replacement development are deferred. No order or working-device firmware changes are authorized by this handoff.
+Next conversation should focus on verifying the nano/display stack and reviewing the routed boards. Preserve our tested matrix/QSPI map below. RGB/art and integrated-chip/Zen replacement development are deferred. No order or working-device firmware changes are authorized by this handoff.
 
 ## Keep tested wiring
 
@@ -23,9 +23,9 @@ Custom right nice!view: CS **D4/P0.22 active high**, MOSI D2/P0.17, SCK D3/P0.20
 
 ## Current validation and next steps
 
-Native KiCad 10.0.7 ERC: 0 reported violations on each half. Native DRC: 0 reported violations and 0 schematic parity issues on each half, but **13 left / 20 right unconnected items remain**. These are not finished boards. Native configured ignored-check categories are retained in reports and validation.json. Independent netlist/PCB assertions verified our matrix, QSPI, right display pins, battery pads and module orientation.
+Native KiCad 10.0.7 reports zero ERC violations, DRC violations, schematic parity issues, and unrouted connections on both halves. See `validation.json` for file hashes and the configured ignored-check categories. Pad checks confirmed the tested matrix, QSPI, right display signals, battery pads, and module orientation.
 
-Next: finish routing with the antenna keepout respected; physically verify the components-down nano stack, nice!view header height and solder access; confirm exact purchased socket, SOIC, reset/power footprints; select and retain a protected battery with strain relief; repeat ERC/DRC/parity and prototype. No Gerbers/order yet.
+Physically verify the nano/display stack, solder access, switch and flash footprints against the parts, and battery retention before fabrication.
 
 Generators under analysis-tools overwrite outputs. Do not regenerate the schematic after routing without rebuilding UUID-linked netlists/boards. Board regeneration also needs native socket-library normalization. Existing routing sessions are experiments, not original Typeractive copper.
 

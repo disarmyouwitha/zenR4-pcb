@@ -1,13 +1,13 @@
 {
   "revision": "Draft-Corne C",
   "date": "2026-11-09",
-  "status": "PARTIALLY ROUTED DEVELOPMENT DRAFT \u2014 NOT FOR FABRICATION",
+  "status": "FULLY ROUTED DEVELOPMENT DRAFT \u2014 ASSEMBLY UNVERIFIED",
   "sides": {
     "left": {
       "ERC_violations": 0,
       "DRC_reported_violations": 0,
       "schematic_parity_issues": 0,
-      "unconnected_items": 13,
+      "unconnected_items": 0,
       "ignored_DRC_categories": [
         {
           "description": "Footprint has no courtyard defined",
@@ -61,16 +61,16 @@
       "front_nano_pin1_right_pin13_left": true,
       "battery_pads_back": true,
       "sha256": {
-        "draft-corne-left.kicad_pcb": "55b28fa000217e4d666717fdb2f6eb5937acdb91fc71ff0e80a9d276b46d3726",
+        "draft-corne-left.kicad_pcb": "90279ed033c8ec208032966fef5383555d7e81888e28de0be8d073e55025f028",
         "draft-corne-left.kicad_sch": "1f3e15b79754138afcab0b11044ce74fcc1cf40f84ad089f66e21bb835b7d8cf"
       },
-      "tracks": 390
+      "tracks": 709
     },
     "right": {
       "ERC_violations": 0,
       "DRC_reported_violations": 0,
       "schematic_parity_issues": 0,
-      "unconnected_items": 20,
+      "unconnected_items": 0,
       "ignored_DRC_categories": [
         {
           "description": "Footprint has no courtyard defined",
@@ -118,10 +118,10 @@
       "front_nano_pin1_right_pin13_left": true,
       "battery_pads_back": true,
       "sha256": {
-        "draft-corne-right.kicad_pcb": "f7bdab911037f4aac4de6826e9d55d6ae6c97e8448b639b37f8bde93e2cb6ee4",
+        "draft-corne-right.kicad_pcb": "5e50b855a26088dbb3fa00c64017ae269a25e265186a377b8c1b3292be24fd36",
         "draft-corne-right.kicad_sch": "c4735310318df4426d96e2fac3422fbd8a7c36b0042d70a7ad09ffbdfad9f743"
       },
-      "tracks": 307
+      "tracks": 761
     }
   },
   "assembly_not_verified": [

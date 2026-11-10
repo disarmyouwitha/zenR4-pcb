@@ -30,6 +30,6 @@ for side,ax in zip(['left','right'],axs):
  x,y=byref['J1']['xy'];ax.text(x,y+3.8,'BAT pads: BACK',ha='center',fontsize=7,color='white')
  ax.set_aspect('equal');ax.set_xlim(20,160);ax.set_ylim(112,21);ax.axis('off');ax.set_title(side.upper()+' · Draft Corne C',fontsize=15,color='#152e3d',pad=15)
 fig.text(.5,.105,'Typeractive-style Choc geometry · OUR matrix · front-mounted nanos, components down · battery wire pads, no JST',ha='center',fontsize=12,color='#253e4a')
-fig.text(.5,.055,'INCOMPLETE ROUTING: 13 left / 20 right unconnected · display/nano stack and battery retention need physical review',ha='center',fontsize=11,color='#253e4a')
+fig.text(.5,.055,'ROUTED · 0 unconnected on both halves · display/nano stack and battery retention need physical review',ha='center',fontsize=11,color='#253e4a')
 fig.tight_layout(rect=[0,.15,1,1]);fig.savefig(OUT/'placement-preview.png',dpi=160);plt.close(fig)
 print('Saved Draft Corne placement preview.')

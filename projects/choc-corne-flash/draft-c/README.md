@@ -1,8 +1,8 @@
 # Draft-Corne (Draft C)
 
-42-key Typeractive-style Choc-spaced Corne with our tested matrix, left QSPI flash and right nice!view. This is a new electrical/placement draft, not a manufacturing release. The geometry was reconstructed from a public 3D model; it is not Typeractive's original PCB source. See the reference folder and root ATTRIBUTION.md.
+42-key Typeractive-style Choc-spaced Corne with our tested matrix, left QSPI flash and right nice!view. This is a routed development draft, not a manufacturing release. The geometry was reconstructed from a public 3D model; it is not Typeractive's original PCB source. See the reference folder and root ATTRIBUTION.md.
 
-![Draft C placement](placement-preview.png)
+![Draft C routing](placement-preview.png)
 
 Open `draft-corne-left.kicad_pro` or `draft-corne-right.kicad_pro` beside their matching schematic and PCB. Keep the local symbol library, footprint directory and library tables with the files.
 
@@ -12,7 +12,7 @@ Open `draft-corne-left.kicad_pro` or `draft-corne-right.kicad_pro` beside their 
 - Choc sockets and diodes are on the back. The left top-row innermost socket SW6 is rotated 180 degrees and D6 moved to avoid mounting-hole/socket clearances; its switch center and electrical assignment are unchanged.
 - Left flash U2 and local 100 nF C1 / 10 kΩ R1 occupy the former JST electronics region, on the front. Candidate flash is W25Q128JVSIQ, **208-mil SOIC**, not the narrower SOIC package.
 - Battery J1 is a pair of **back-side solder pads**: 1 BAT+, 2 GND. No JST. Plan strain relief and insulated battery retention in the new enclosure. Reset is on the opposite face in this area.
-- Right J2 supplies a nice!view above the nano. The footprint establishes the interface, not a proven header height or display mount. Review the complete stack and solder access before buying headers.
+- Right J2 supplies a nice!view above the nano. Routing moved J2 1.8 mm toward the thumbs to clear the carrier’s antenna keepout. Check display height and solder access with the actual parts.
 - Power/reset footprints are candidates (MSK12C02 / TL3342), pending exact purchased-part drawing checks. The battery switch disconnects the cell; USB can still power the nano. Charging while switched off is not promised.
 
 ## Pin plan
@@ -35,8 +35,8 @@ The custom right CS is D4; the existing Ultralight's D0 CS cannot be copied beca
 
 ## Checks and remaining work
 
-See `validation.json` for the exact current checks and hashes. Before routing, both native schematics passed ERC and both placements had zero reported DRC violations or schematic parity issues, with 84 left / 77 right unconnected items. These are placement checks, not a completed PCB. KiCad's configured ignored-check categories are recorded in the native reports; no implication of all possible checks is intended.
+Both halves have **zero unrouted connections, DRC violations, schematic parity issues, and ERC violations** in KiCad 10.0.7. Both copper layers have filled ground planes. The carrier’s antenna keepout remains clear. See `validation.json` for hashes and configured checks. The DSN/SES files and placement/router reports are records of the initial routing pass.
 
-The first imported routing pass has **13 left / 20 right unconnected items**, with **0 reported DRC violations, 0 schematic parity issues and 0 ERC violations on each half**. Routing is experimental until the current DRC/unconnected counts are zero and reviewed. Next: finish traces, review antenna clearance and display/nano/header stack, confirm exact switch/flash/socket footprints against parts, select battery and retention, then run final ERC/DRC/parity and prototype. No fabrication files/order are provided. RGB, artwork, integrated SoC and Zen-shell accommodation remain deferred. Drafts A/B remain historical.
+Physical assembly remains unverified. Check the nano and display stack, the selected footprints against the parts, and battery retention before fabrication.
 
-Official display references: [pinout](https://nicekeyboards.com/docs/nice-view/pinout-schematic/) and [dimensions](https://nicekeyboards.com/static/2f2592ff1ff8021932814b20cb76e3c4/a6d36/niceview_dimensions.png).
+Official display references are the [pinout](https://nicekeyboards.com/docs/nice-view/pinout-schematic/) and [dimensions](https://nicekeyboards.com/static/2f2592ff1ff8021932814b20cb76e3c4/a6d36/niceview_dimensions.png).

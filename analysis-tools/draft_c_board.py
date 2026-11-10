@@ -101,7 +101,7 @@ for side in ['left','right']:
  if side=='left':
   add('U2','SOIC-8_5.3x5.3mm_P1.27mm__NoSilk',[cx,71]);add('C1','C_0603_1608Metric__NoSilk',[cx+3,66.9]);add('R1','R_0603_1608Metric__NoSilk',[cx,75.5])
  else:
-  view=next(r for r in rows if r['side']==side and r['reference']=='J_VIEW');add('J2','NiceView_Front_Header',[round(float(view['x_mm']),4),round(float(view['y_mm']),4)])
+  view=next(r for r in rows if r['side']==side and r['reference']=='J_VIEW');add('J2','NiceView_Front_Header',[round(float(view['x_mm']),4),round(float(view['y_mm'])+1.8,4)])
  reftext=(ROOT/f'projects/choc-corne-flash/reference/typeractive-model-{side}.kicad_pcb').read_text();outline=[];mountcount=0
  for k,n in parts(reftext):
   if k=='gr_line' and '(layer "Edge.Cuts")' in n:

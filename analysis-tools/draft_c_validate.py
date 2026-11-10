@@ -1,7 +1,7 @@
 """Audit Draft C native reports and intended schematic/PCB pad assignments."""
 import hashlib,json,re,xml.etree.ElementTree as ET
 from draft_c_common import ROOT,OUT,nodes,head
-plan=json.loads((OUT.parent/'pin-plan.json').read_text());result={'revision':'Draft-Corne C','date':'2026-11-09','status':'PARTIALLY ROUTED DEVELOPMENT DRAFT — NOT FOR FABRICATION','sides':{},'assembly_not_verified':['nano/header stack height and component clearance','nice!view standoff height and retention','battery thickness, insulation and strain relief','purchased-part footprint dimensions and switch polarity','antenna environment in the eventual enclosure']}
+plan=json.loads((OUT.parent/'pin-plan.json').read_text());result={'revision':'Draft-Corne C','date':'2026-11-09','status':'FULLY ROUTED DEVELOPMENT DRAFT — ASSEMBLY UNVERIFIED','sides':{},'assembly_not_verified':['nano/header stack height and component clearance','nice!view standoff height and retention','battery thickness, insulation and strain relief','purchased-part footprint dimensions and switch polarity','antenna environment in the eventual enclosure']}
 for side in ['left','right']:
     pcb=OUT/f'draft-corne-{side}.kicad_pcb';sch=OUT/f'draft-corne-{side}.kicad_sch'
     native=json.loads((OUT/f'checks/{side}-drc.json').read_text());erc=json.loads((OUT/f'checks/{side}-erc.json').read_text())
@@ -33,7 +33,7 @@ for side in ['left','right']:
     assert len([r for r in fps if re.fullmatch(r'SW(?:[1-9]|1\d|2[01])',r)])==21
     erc_violations=[v for sheet in erc.get('sheets',[]) for v in sheet.get('violations',[])]
     assert not erc_violations
-    assert not native['violations'] and not native['schematic_parity']
+    assert not native['violations'] and not native['schematic_parity'] and not native['unconnected_items']
     result['sides'][side]={'ERC_violations':len(erc_violations),'DRC_reported_violations':len(native['violations']),'schematic_parity_issues':len(native['schematic_parity']),'unconnected_items':len(native['unconnected_items']),'ignored_DRC_categories':native['ignored_checks'],'pad_memberships_verified':checked,'front_nano_pin1_right_pin13_left':True,'battery_pads_back':True,'sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [pcb,sch]},'tracks':sum(head(n)=='segment' for _,_,n in nodes(pcb.read_text()))}
 (OUT/'validation.json').write_text(json.dumps(result,indent=2)+'\n')
 print({s:{k:v for k,v in d.items() if k in ['ERC_violations','DRC_reported_violations','unconnected_items','schematic_parity_issues','tracks']} for s,d in result['sides'].items()})
