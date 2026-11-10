@@ -1,0 +1,64 @@
+2026-11-09 22:17:00.387 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-11-09 22:17:00.718 INFO   Hardware: 12 CPU cores, 452 CPU score, 2048 MB RAM
+2026-11-09 22:17:00.724 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-11-09 22:17:02.241 INFO   [B2BA8E\34F10E] Loading board file 'draft-corne-left.dsn'...
+2026-11-09 22:17:02.532 INFO   [B2BA8E\34F10E] Job 'B2BA8E\34F10E' started at 2026-11-10T04:17:02.531847Z.
+2026-11-09 22:17:02.739 INFO   [B2BA8E\34F10E] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=11.
+2026-11-09 22:17:02.920 INFO   [B2BA8E\34F10E] Auto-routing stage started on board '44d1ab443406b0d6ade518427984a819' with baseline score 0.00 for 84 unrouted items.
+2026-11-09 22:17:06.022 INFO   Necked retry routed net '/ROW0' at 200.0 um trace width.
+2026-11-09 22:17:06.232 INFO   Necked retry routed net '/FLASH_IO1' at 200.0 um trace width.
+2026-11-09 22:17:11.817 INFO   Necked retry routed net '/ROW0' at 200.0 um trace width.
+2026-11-09 22:17:13.087 INFO   [B2BA8E\34F10E] Auto-routing pass #1 on board '44d1ab443406b0d6ade518427984a819' was completed in 10.07 seconds with score 634.92 (23 unrouted and 0 violations), using 9.35 CPU seconds and the job allocated 4.28 GB of memory so far.
+2026-11-09 22:17:19.861 INFO   Necked retry routed net '/FLASH_IO1' at 200.0 um trace width.
+2026-11-09 22:17:20.157 INFO   Necked retry routed net '/ROW0' at 200.0 um trace width.
+2026-11-09 22:17:20.746 INFO   [B2BA8E\34F10E] Auto-routing pass #2 on board '8e983bed07d099860e5f70dfee8bdc1c' was completed in 7.60 seconds with score 603.17 (25 unrouted and 0 violations), using 16.60 CPU seconds and the job allocated 8.93 GB of memory so far.
+2026-11-09 22:17:25.860 INFO   Necked retry routed net '/ROW0' at 200.0 um trace width.
+2026-11-09 22:17:26.203 INFO   [B2BA8E\34F10E] Auto-routing pass #3 on board 'd7cc0ce57331b6467951220547ca5961' was completed in 5.42 seconds with score 523.81 (30 unrouted and 0 violations), using 21.49 CPU seconds and the job allocated 13.18 GB of memory so far.
+2026-11-09 22:17:31.763 INFO   [B2BA8E\34F10E] Auto-routing pass #4 on board '5d43ab4e2bb568765f0b1479e1c2d7ba' was completed in 5.54 seconds with score 619.05 (24 unrouted and 0 violations), using 27.36 CPU seconds and the job allocated 18.52 GB of memory so far.
+2026-11-09 22:17:36.488 INFO   Necked retry routed net '/ROW0' at 200.0 um trace width.
+2026-11-09 22:17:36.887 INFO   [B2BA8E\34F10E] Auto-routing pass #5 on board 'f51f27d34b76244c7ce5d48027c52917' was completed in 5.10 seconds with score 571.43 (27 unrouted and 0 violations), using 32.26 CPU seconds and the job allocated 23.10 GB of memory so far.
+2026-11-09 22:17:41.800 INFO   [B2BA8E\34F10E] Auto-routing pass #6 on board 'bd38e6882712952008faabb3c6ea2ab9' was completed in 4.89 seconds with score 698.41 (19 unrouted and 0 violations), using 37.18 CPU seconds and the job allocated 27.83 GB of memory so far.
+2026-11-09 22:17:47.397 INFO   [B2BA8E\34F10E] Auto-routing pass #7 on board '8bf555aa524a18e6a9197c2669f09092' was completed in 5.57 seconds with score 698.41 (19 unrouted and 0 violations), using 42.08 CPU seconds and the job allocated 32.53 GB of memory so far.
+2026-11-09 22:17:52.946 INFO   [B2BA8E\34F10E] Auto-routing pass #8 on board 'b6ead7c0b47cf67414a2003f2d78e770' was completed in 5.52 seconds with score 698.41 (19 unrouted and 0 violations), using 47.97 CPU seconds and the job allocated 38.15 GB of memory so far.
+2026-11-09 22:17:59.012 INFO   [B2BA8E\34F10E] Auto-routing pass #9 on board 'aecced019fe33b9778ef04eae479da4b' was completed in 6.04 seconds with score 682.54 (20 unrouted and 0 violations), using 53.80 CPU seconds and the job allocated 43.44 GB of memory so far.
+2026-11-09 22:18:01.272 INFO   Necked retry routed net '/GND' at 200.0 um trace width.
+2026-11-09 22:18:04.993 INFO   [B2BA8E\34F10E] Auto-routing pass #10 on board '063c330ea219f051d1fb283cee8cdb95' was completed in 5.96 seconds with score 793.65 (13 unrouted and 0 violations), using 59.70 CPU seconds and the job allocated 48.99 GB of memory so far.
+2026-11-09 22:18:10.377 INFO   [B2BA8E\34F10E] Auto-routing pass #11 on board '694938f19657b206548327c75ede66e1' was completed in 5.36 seconds with score 714.29 (18 unrouted and 0 violations), using 64.62 CPU seconds and the job allocated 53.68 GB of memory so far.
+2026-11-09 22:18:16.223 INFO   [B2BA8E\34F10E] Auto-routing pass #12 on board '694938f19657b206548327c75ede66e1' was completed in 0.00 seconds with score 793.65 (13 unrouted and 0 violations), using 70.51 CPU seconds and the job allocated 59.21 GB of memory so far.
+2026-11-09 22:18:21.684 INFO   [B2BA8E\34F10E] Auto-routing pass #13 on board '694938f19657b206548327c75ede66e1' was completed in 5.45 seconds with score 714.29 (18 unrouted and 0 violations), using 75.39 CPU seconds and the job allocated 63.72 GB of memory so far.
+2026-11-09 22:18:27.379 INFO   [B2BA8E\34F10E] Auto-routing pass #14 on board '01e8c5107b91957a2ae73251382692e4' was completed in 5.67 seconds with score 730.16 (17 unrouted and 0 violations), using 81.28 CPU seconds and the job allocated 69.28 GB of memory so far.
+2026-11-09 22:18:33.022 INFO   [B2BA8E\34F10E] Auto-routing pass #15 on board '727464a23cb08ecffc895dcf264d4a35' was completed in 5.62 seconds with score 730.16 (17 unrouted and 0 violations), using 87.17 CPU seconds and the job allocated 74.90 GB of memory so far.
+2026-11-09 22:18:39.449 INFO   [B2BA8E\34F10E] Auto-routing pass #16 on board '694938f19657b206548327c75ede66e1' was completed in 0.00 seconds with score 793.65 (13 unrouted and 0 violations), using 92.80 CPU seconds and the job allocated 80.03 GB of memory so far.
+2026-11-09 22:18:45.214 INFO   Necked retry routed net '/GND' at 200.0 um trace width.
+2026-11-09 22:18:45.254 INFO   [B2BA8E\34F10E] Auto-routing pass #17 on board '694938f19657b206548327c75ede66e1' was completed in 5.80 seconds with score 777.78 (14 unrouted and 0 violations), using 98.66 CPU seconds and the job allocated 85.32 GB of memory so far.
+2026-11-09 22:18:51.466 INFO   Necked retry routed net '/GND' at 200.0 um trace width.
+2026-11-09 22:18:51.532 INFO   [B2BA8E\34F10E] Auto-routing pass #18 on board '910936502e6736bb83ff762f125a98d4' was completed in 6.25 seconds with score 730.16 (17 unrouted and 0 violations), using 104.56 CPU seconds and the job allocated 90.79 GB of memory so far.
+2026-11-09 22:19:14.011 INFO   [B2BA8E\34F10E] Auto-routing pass #19 on board '041d36b5adabd34c9c2b31a91e81c037' was completed in 22.45 seconds with score 714.29 (18 unrouted and 0 violations), using 116.70 CPU seconds and the job allocated 96.87 GB of memory so far.
+2026-11-09 22:19:20.608 INFO   [B2BA8E\34F10E] Auto-routing pass #20 on board '694938f19657b206548327c75ede66e1' was completed in 0.00 seconds with score 793.65 (13 unrouted and 0 violations), using 121.70 CPU seconds and the job allocated 101.19 GB of memory so far.
+2026-11-09 22:19:20.618 INFO   [B2BA8E\34F10E] The router's best score (793.65) has not improved by more than 0.5 points since pass #10. Stopping the auto-router after 20 passes (13 items still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net '/BAT_SW' (1 unrouted connection):
+    - SW22-3  ->  U1-13
+  Net '/COL4' (1 unrouted connection):
+    - SW17-1  ->  SW20-1
+  Net '/COL5' (1 unrouted connection):
+    - SW18-1  ->  SW21-1
+  Net '/FLASH_CLK' (1 unrouted connection):
+    - U1-7  ->  U2-6
+  Net '/FLASH_IO0' (1 unrouted connection):
+    - U2-5  ->  U1-8
+  Net '/FLASH_IO2' (1 unrouted connection):
+    - U1-10  ->  U2-3
+  Net '/FLASH_IO3' (1 unrouted connection):
+    - U1-6  ->  U2-7
+  Net '/GND' (6 unrouted connections):
+    - SW23-2@1  ->  J1-2
+    - U1-4  ->  U1-3
+    - U2-4  ->  SW23-2
+    - U2-4  ->  C1-2
+    - U1-3  ->  U1-14
+    - U1-4  ->  C1-2
+2026-11-09 22:19:20.686 INFO   [B2BA8E\34F10E] Auto-routing stage completed: started with 84 unrouted nets, completed in 137.92 seconds, final score: 793.65 (13 unrouted and 0 violations), using 121.70 total CPU seconds, 101.19 GB total allocated, and 232.1 MB peak heap usage.
+2026-11-09 22:19:20.700 INFO   [B2BA8E\34F10E] Job 'B2BA8E\34F10E' finished with state: COMPLETED (elapsed: 2 minutes 18.17 seconds, finished at UTC: 2026-11-10T04:19:20.699776Z).
+2026-11-09 22:19:20.709 INFO   Saving output file '/Users/nap/Documents/new_code/zenR4-pcb/projects/choc-corne-flash/draft-c/draft-corne-left.ses' (SES)...
+2026-11-09 22:19:20.712 INFO   Successfully saved output file '/Users/nap/Documents/new_code/zenR4-pcb/projects/choc-corne-flash/draft-c/draft-corne-left.ses' (31187 bytes).

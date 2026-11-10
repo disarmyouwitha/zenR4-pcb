@@ -1,18 +1,20 @@
-# Active goal: Choc Corne with left flash / right nice!view
+# Draft-Corne: Choc Corne with left flash / right nice!view
 
-**[Current scope draft](projects/choc-corne-flash/README.md)** · [Current handoff](docs/CHATGPT-HANDOFF.md) · [Typeractive geometry reference](projects/choc-corne-flash/reference/README.md)
+**[Draft C files and status](projects/choc-corne-flash/draft-c/README.md)** · [ChatGPT handoff](docs/CHATGPT-HANDOFF.md) · [Download packet](docs/draft-corne.zip)
 
-The owner simplified the goal: nice!nano-based Typeractive-style Choc Corne, QSPI on the left and nice!view on the right. Zen-specific geometry and integrated electronics are retired from active work; RGB/art are deferred. The new reference is inferred and unrouted; this scope update does not claim another completed PCB.
+![Draft C](projects/choc-corne-flash/draft-c/placement-preview.png)
 
-The checked Draft B work below is preserved historical context, not the geometry for the new target.
+Both nice!nanos mount on the front, components down. Our tested matrix and left QSPI are retained; the right has a real nice!view interface. Battery connections use back-side solder pads. This is a development draft, with routing/assembly review still required; it is not ready to manufacture.
+
+Repository remains private; preserve [source attribution](ATTRIBUTION.md). The older Draft B information below is historical.
 
 ---
 
 # zenR4-pcb — Nano Independent
 
-Active direction: our own 42-key Choc nice!nano keyboard and case, inspired by Zen geometry. The owner is pursuing an original spare PCB for their Zen; integrated replacement development is set aside.
+Historical Draft B direction: our own 42-key Choc nice!nano keyboard and case, inspired by Zen geometry. The owner is pursuing an original spare PCB for their Zen; integrated replacement development is set aside.
 
-## Current draft: B
+## Historical draft: B
 
 ![Draft B](projects/nano-independent/draft-b/layout-preview.png)
 

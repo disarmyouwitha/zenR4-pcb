@@ -1,9 +1,7 @@
-# Current packet — Nano Independent Draft B
+# Current packet: Draft-Corne C
 
-Download `nano-independent-draft-b.zip` from this folder and unpack it. Upload `docs/CHATGPT-HANDOFF.md`, the new `layout-preview.png`, and optionally `thumb-before-after.png` from the Draft B directory.
+Unpack `draft-corne.zip`. Upload `docs/CHATGPT-HANDOFF.md`, `projects/choc-corne-flash/draft-c/README.md`, `validation.json`, and `placement-preview.png` to the next ChatGPT conversation. Native KiCad schematics/boards and local libraries are included for detailed review.
 
-The packet contains the new native KiCad projects/checks, needed footprint/symbol libraries, printable outline/fit models and the current feature plan. The old `zenR4-pcb-chatgpt-handoff.zip` is a historical Draft A packet, not the active design direction.
+Prompt: “Help review Draft-Corne: 42-key Choc Corne, our tested matrix, front-mounted nice!nanos with components down, left QSPI, right nice!view, battery solder pads on the back. Read the validation report; routing and assembly review remain. Preserve the tested GPIO map.”
 
-Paste: “Read this Nano Independent Draft B handoff and images. We're designing our own nice!nano keyboard/case using Zen geometry as inspiration. USB reliefs and thumb outlines are corrected; display/RGB circuitry is still planned. Help me review the new case stack and next circuit revision while keeping the tested matrix and left QSPI wiring.”
-
-The repository is private; another ChatGPT session may need uploaded files instead of only a GitHub link. Current boards have not been fabricated. Electrical rule checks do not prove assembly or case fit.
+GitHub is private and another session may need uploaded files. Older A/B packets are historical.

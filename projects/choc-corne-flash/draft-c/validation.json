@@ -1,0 +1,134 @@
+{
+  "revision": "Draft-Corne C",
+  "date": "2026-11-09",
+  "status": "PARTIALLY ROUTED DEVELOPMENT DRAFT \u2014 NOT FOR FABRICATION",
+  "sides": {
+    "left": {
+      "ERC_violations": 0,
+      "DRC_reported_violations": 0,
+      "schematic_parity_issues": 0,
+      "unconnected_items": 13,
+      "ignored_DRC_categories": [
+        {
+          "description": "Footprint has no courtyard defined",
+          "key": "missing_courtyard"
+        },
+        {
+          "description": "Track endpoint not centered on via",
+          "key": "track_not_centered_on_via"
+        },
+        {
+          "description": "Tuning profile track geometries",
+          "key": "tuning_profile_track_geometries"
+        },
+        {
+          "description": "Footprint doesn't match symbol's footprint filters",
+          "key": "footprint_filters_mismatch"
+        },
+        {
+          "description": "Footprint component type doesn't match footprint pads",
+          "key": "footprint_type_mismatch"
+        }
+      ],
+      "pad_memberships_verified": [
+        "ROW0: U1.11",
+        "ROW1: U1.12",
+        "ROW2: U1.17",
+        "ROW3: U1.18",
+        "COL0: U1.19",
+        "COL1: U1.20",
+        "COL2: U1.21",
+        "COL3: U1.22",
+        "COL4: U1.2",
+        "COL5: U1.1",
+        "FLASH_CS_N: U1.5",
+        "FLASH_CS_N: U2.1",
+        "FLASH_CLK: U1.7",
+        "FLASH_CLK: U2.6",
+        "FLASH_IO0: U1.8",
+        "FLASH_IO0: U2.5",
+        "FLASH_IO1: U1.9",
+        "FLASH_IO1: U2.2",
+        "FLASH_IO2: U1.10",
+        "FLASH_IO2: U2.3",
+        "FLASH_IO3: U1.6",
+        "FLASH_IO3: U2.7",
+        "3V3_SW: U2.8",
+        "GND: U2.4",
+        "BAT_RAW: J1.1",
+        "GND: J1.2"
+      ],
+      "front_nano_pin1_right_pin13_left": true,
+      "battery_pads_back": true,
+      "sha256": {
+        "draft-corne-left.kicad_pcb": "55b28fa000217e4d666717fdb2f6eb5937acdb91fc71ff0e80a9d276b46d3726",
+        "draft-corne-left.kicad_sch": "1f3e15b79754138afcab0b11044ce74fcc1cf40f84ad089f66e21bb835b7d8cf"
+      },
+      "tracks": 390
+    },
+    "right": {
+      "ERC_violations": 0,
+      "DRC_reported_violations": 0,
+      "schematic_parity_issues": 0,
+      "unconnected_items": 20,
+      "ignored_DRC_categories": [
+        {
+          "description": "Footprint has no courtyard defined",
+          "key": "missing_courtyard"
+        },
+        {
+          "description": "Track endpoint not centered on via",
+          "key": "track_not_centered_on_via"
+        },
+        {
+          "description": "Tuning profile track geometries",
+          "key": "tuning_profile_track_geometries"
+        },
+        {
+          "description": "Footprint doesn't match symbol's footprint filters",
+          "key": "footprint_filters_mismatch"
+        },
+        {
+          "description": "Footprint component type doesn't match footprint pads",
+          "key": "footprint_type_mismatch"
+        }
+      ],
+      "pad_memberships_verified": [
+        "ROW0: U1.11",
+        "ROW1: U1.12",
+        "ROW2: U1.17",
+        "ROW3: U1.18",
+        "COL0: U1.19",
+        "COL1: U1.20",
+        "COL2: U1.21",
+        "COL3: U1.22",
+        "COL4: U1.2",
+        "COL5: U1.1",
+        "VIEW_CS_ACTIVE_HIGH: U1.7",
+        "VIEW_MOSI: U1.5",
+        "VIEW_SCK: U1.6",
+        "VIEW_MOSI: J2.1",
+        "VIEW_SCK: J2.2",
+        "3V3_SW: J2.3",
+        "GND: J2.4",
+        "VIEW_CS_ACTIVE_HIGH: J2.5",
+        "BAT_RAW: J1.1",
+        "GND: J1.2"
+      ],
+      "front_nano_pin1_right_pin13_left": true,
+      "battery_pads_back": true,
+      "sha256": {
+        "draft-corne-right.kicad_pcb": "f7bdab911037f4aac4de6826e9d55d6ae6c97e8448b639b37f8bde93e2cb6ee4",
+        "draft-corne-right.kicad_sch": "c4735310318df4426d96e2fac3422fbd8a7c36b0042d70a7ad09ffbdfad9f743"
+      },
+      "tracks": 307
+    }
+  },
+  "assembly_not_verified": [
+    "nano/header stack height and component clearance",
+    "nice!view standoff height and retention",
+    "battery thickness, insulation and strain relief",
+    "purchased-part footprint dimensions and switch polarity",
+    "antenna environment in the eventual enclosure"
+  ]
+}

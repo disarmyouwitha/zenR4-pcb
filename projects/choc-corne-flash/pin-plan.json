@@ -1,6 +1,6 @@
 {
-  "revision": "choc-corne-flash-scope-1",
-  "status": "scope/placement proposal; Typeractive geometry reference is inferred/unrouted; new boards not implemented",
+  "revision": "draft-corne-c",
+  "status": "Draft C native schematics and placement implemented; see draft-c/validation.json for routing status",
   "matrix": {
     "ROW0": {
       "edge_label": "D8",
@@ -184,5 +184,10 @@
       "Zen case adaptation",
       "new elaborate case design"
     ]
+  },
+  "mounting": {
+    "nice_nano": "front, components down, identical physical bank orientation on both halves",
+    "battery": "back-side wire solder pads, no JST",
+    "right_display": "front above nano; stack height not yet validated"
   }
 }
