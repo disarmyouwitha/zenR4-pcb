@@ -1,0 +1,117 @@
+side,reference,value,x_mm,y_mm,angle_deg,layer,description
+left,SW1,Choc_hotswap_model,34.89901373177646,39.930963178102395,0.012644249271033713,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D1,D_SOD123_INFERRED,38.19987499999999,36.13314,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW2,Choc_hotswap_model,52.89922665409529,39.93025331834761,0.006759346013110497,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D2,D_SOD123_INFERRED,56.20455999999999,36.13314,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW3,Choc_hotswap_model,70.9008088288196,35.1313637185097,0.02038078131758709,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D3,D_SOD123_INFERRED,74.201145,31.13364,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW4,Choc_hotswap_model,88.89973051288356,32.93110816247218,-0.03257012778338401,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D4,D_SOD123_INFERRED,92.19772999999999,28.832409999999996,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW5,Choc_hotswap_model,106.89620271838191,35.133439650507626,0.022546590305529638,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D5,D_SOD123_INFERRED,110.20241999999999,31.13364,-89.99971020439162,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW6,Choc_hotswap_model,124.90000259765134,37.63267145241049,0.030524102335461892,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D6,D_SOD123_INFERRED,128.19899999999998,33.65365,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW7,Choc_hotswap_model,34.89915641256381,56.930962876769456,0.012539873019652493,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D7,D_SOD123_INFERRED,38.19987499999999,53.20599,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW8,Choc_hotswap_model,52.89936145200127,56.93101786715822,0.015041042203948576,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D8,D_SOD123_INFERRED,56.20455999999999,53.20599,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW9,Choc_hotswap_model,70.89993719117419,52.13154086977602,0.032401923395911365,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D9,D_SOD123_INFERRED,74.201145,48.352345,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW10,Choc_hotswap_model,88.8996719448901,49.931726544460005,0.02954781604569936,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D10,D_SOD123_INFERRED,92.19772999999999,46.22938,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW11,Choc_hotswap_model,106.89798424378102,52.131845452681155,0.0342155624306564,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D11,D_SOD123_INFERRED,110.20241999999999,48.303725,-89.99970780876369,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW12,Choc_hotswap_model,124.9011587244321,54.63122607082637,0.012916640887988802,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D12,D_SOD123_INFERRED,128.19899999999998,50.62926,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW13,Choc_hotswap_model,34.89916751621723,73.93096463681468,0.0013114946986480002,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D13,D_SOD123_INFERRED,38.19987499999999,70.23022499999999,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW14,Choc_hotswap_model,52.89931490531896,73.9309029911515,-0.003375768003982743,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D14,D_SOD123_INFERRED,56.20455999999999,70.23022499999999,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW15,Choc_hotswap_model,70.90086378173342,69.13134612814801,0.015995142904135895,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D15,D_SOD123_INFERRED,74.201145,65.433295,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW16,Choc_hotswap_model,88.90044136728201,66.93031822857623,0.0033833274749352302,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D16,D_SOD123_INFERRED,92.19772999999999,63.13207,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW17,Choc_hotswap_model,106.89933079746973,69.13033538743824,0.008502805034760868,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D17,D_SOD123_INFERRED,110.20241999999999,65.32795999999999,-89.99971020439162,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW18,Choc_hotswap_model,124.90052043677505,71.63222556971846,0.03424305665980184,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D18,D_SOD123_INFERRED,128.19899999999998,67.83176,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW19,Choc_hotswap_model,97.6995885927662,86.73153858729248,0.02868599105267802,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D19,D_SOD123_INFERRED,100.99749999999999,83.130075,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW20,Choc_hotswap_model,117.40060802974233,89.32926310489793,-15.005802712743627,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D20,D_SOD123_INFERRED,121.70045999999999,86.533295,-105.17307144939943,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,SW21,Choc_hotswap_model,137.80294996397953,92.92901930489887,60.02098852276659,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+left,D21,D_SOD123_INFERRED,136.00211,88.03234,-30.15468937642035,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+left,U1,nice_nano_socket_RECONSTRUCTED,143.50984675924917,47.600545881275934,0.0,F,24 hole centers measured. Pin functions inferred from nice!nano v2 documentation and artwork; verify mounting orientation on each half.
+left,J_VIEW,VIEW_HEADER_UNASSIGNED,143.03966153299007,65.33006478362859,0.0,F,Five measured holes. Display nets intentionally unassigned; user does not need displays.
+left,J_BAT_PIN32,BAT_POLARITY_UNKNOWN,146.57620739879462,70.83125518010732,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH49,MODEL_HOLE,115.89903266957143,44.931506569658055,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH83,MODEL_HOLE,129.30113372555587,86.73094562212582,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH90,MODEL_HOLE,84.79973534827714,80.13201524079338,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH91,MODEL_HOLE,151.22648357608136,73.83099064337107,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH97,MODEL_HOLE,61.901972889979874,48.42680623114927,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH120,MODEL_HOLE,151.22807022146714,76.82927137970671,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH125,MODEL_HOLE,61.900878171855055,65.42734859331236,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH173,MODEL_HOLE,136.90125505866604,74.53081051015953,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,J_BAT_PIN249,BAT_POLARITY_UNKNOWN,146.57616786316783,68.8321668493415,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,MH271,MODEL_HOLE,150.59869478242405,81.73101802200298,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+left,REF_BATTERY_BODY,BATTERY_BODY,144.061455,69.86015499999999,0.0,F,Envelope from 3D model only. Not an electrically usable component footprint.
+left,REF_POWER_SWITCH_BODY,POWER_SWITCH_BODY,151.871015,75.35247,0.0,F,Envelope from 3D model only. Not an electrically usable component footprint.
+left,REF_RESET_BODY,RESET_BODY,151.81901,66.85131,0.0,F,Envelope from 3D model only. Not an electrically usable component footprint.
+right,SW1,Choc_hotswap_model,143.30259787570947,39.90106685154625,0.033176918138348936,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D1,D_SOD123_INFERRED,146.600595,36.198375,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW2,Choc_hotswap_model,125.30376627797115,39.90011173304203,0.045515735343586126,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D2,D_SOD123_INFERRED,128.60401000000002,36.198375,-90.0002897956084,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW3,Choc_hotswap_model,107.30395676559948,35.09969858029237,0.018360708364199615,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D3,D_SOD123_INFERRED,110.60743,31.29611,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW4,Choc_hotswap_model,89.30370261249703,32.89879781692855,0.02592171868731783,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D4,D_SOD123_INFERRED,92.60274,29.10022,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW5,Choc_hotswap_model,71.3065752211662,35.099783885556725,0.04813669460737645,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D5,D_SOD123_INFERRED,74.606155,31.29611,-89.53054162052672,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW6,Choc_hotswap_model,53.30444601262753,37.598249386836805,0.031237735429780544,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D6,D_SOD123_INFERRED,56.609570000000005,33.897145,-89.99999999999957,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW7,Choc_hotswap_model,143.3061606761669,56.89944534340735,0.03854623341271119,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D7,D_SOD123_INFERRED,146.600595,53.1983,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW8,Choc_hotswap_model,125.30479555242175,56.89914162813011,0.0015472649091706815,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D8,D_SOD123_INFERRED,128.60401000000002,53.1983,-90.00028979414265,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW9,Choc_hotswap_model,107.3038045382004,52.09914760268846,0.017824115282004015,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D9,D_SOD123_INFERRED,110.60743,48.401375,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW10,Choc_hotswap_model,89.30461606278357,49.89977574919802,0.021418008897504285,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D10,D_SOD123_INFERRED,92.60274,46.100145000000005,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW11,Choc_hotswap_model,71.30693447675934,52.09827078145533,0.01605080195019252,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D11,D_SOD123_INFERRED,74.606155,48.29603,-89.5305392461533,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW12,Choc_hotswap_model,53.30356212700679,54.599442313573576,0.003110288106450104,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D12,D_SOD123_INFERRED,56.609570000000005,50.89707,-89.99999999999957,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW13,Choc_hotswap_model,143.3046017817003,73.89914668968328,0.011016282475475559,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D13,D_SOD123_INFERRED,146.600595,70.10099,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW14,Choc_hotswap_model,125.30439342666222,73.8982622115165,0.0008280846527004609,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D14,D_SOD123_INFERRED,128.60401000000002,70.10099,-90.00028979414265,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW15,Choc_hotswap_model,107.30359253080883,69.09920328319616,0.037485616754171155,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D15,D_SOD123_INFERRED,110.60743,65.19872000000001,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW16,Choc_hotswap_model,89.3044632002841,66.90103542963504,0.020379217208881136,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D16,D_SOD123_INFERRED,92.60274,63.197305,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW17,Choc_hotswap_model,71.30686423081112,69.09932659623871,0.03074754522696418,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D17,D_SOD123_INFERRED,74.606155,65.29596000000001,-89.53054162052672,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW18,Choc_hotswap_model,53.30226767019128,71.60053200595844,0.041874575809339974,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D18,D_SOD123_INFERRED,56.609570000000005,67.79976,-89.99999999999959,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW19,Choc_hotswap_model,80.50580788667563,86.69926969547973,0.0415639113958485,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D19,D_SOD123_INFERRED,83.80297,83.098075,-90.0,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW20,Choc_hotswap_model,60.803958776615374,89.29792036694317,14.99575953339478,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D20,D_SOD123_INFERRED,62.89744,84.89692500000001,-75.28016926840132,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,SW21,Choc_hotswap_model,40.40349176885134,92.89633711439751,-60.01183185682766,B,Holes measured from GLB. SMD socket pads inferred from standard Choc socket geometry; verify pad numbering and land pattern.
+right,D21,D_SOD123_INFERRED,43.904195,94.49888,-149.84545687726617,B,Body and cathode stripe placement recovered. SOD-123 land pattern and col2row electrical connections inferred; diode part number unknown.
+right,U1,nice_nano_socket_RECONSTRUCTED,34.7138565817365,47.56803975233366,0.0,F,24 hole centers measured. Pin functions inferred from nice!nano v2 documentation and artwork; verify mounting orientation on each half.
+right,J_VIEW,VIEW_HEADER_UNASSIGNED,35.083590289779934,65.29848024455916,0.0,F,Five measured holes. Display nets intentionally unassigned; user does not need displays.
+right,MH0,MODEL_HOLE,93.40471055231046,80.09935004961233,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,MH51,MODEL_HOLE,26.976879851963883,76.80126169611762,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,MH78,MODEL_HOLE,62.30467990438616,44.89959647145835,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,MH80,MODEL_HOLE,48.904641096039,86.6994864173015,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,MH116,MODEL_HOLE,116.30366776603611,48.39481083888619,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,MH151,MODEL_HOLE,26.972843711672525,73.79899307419596,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,MH166,MODEL_HOLE,27.606784923645094,81.69892274927253,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,J_BAT_PIN226,BAT_POLARITY_UNKNOWN,31.627493350251687,68.79572341610283,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,MH241,MODEL_HOLE,116.30193294143974,65.3949976727429,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,J_BAT_PIN242,BAT_POLARITY_UNKNOWN,31.62651185996107,70.80015059980349,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,MH251,MODEL_HOLE,41.30332787029888,74.49793157626598,0.0,F,Measured GLB hole. Battery polarity/plating or mounting purpose requires verification.
+right,REF_BATTERY_BODY,BATTERY_BODY,33.97226,69.81374,0.0,F,Envelope from 3D model only. Not an electrically usable component footprint.
+right,REF_POWER_SWITCH_BODY,POWER_SWITCH_BODY,26.164365,75.32425,0.0,F,Envelope from 3D model only. Not an electrically usable component footprint.
+right,REF_RESET_BODY,RESET_BODY,26.409995000000002,66.81931,0.0,F,Envelope from 3D model only. Not an electrically usable component footprint.

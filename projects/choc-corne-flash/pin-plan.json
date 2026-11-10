@@ -1,0 +1,188 @@
+{
+  "revision": "choc-corne-flash-scope-1",
+  "status": "scope/placement proposal; Typeractive geometry reference is inferred/unrouted; new boards not implemented",
+  "matrix": {
+    "ROW0": {
+      "edge_label": "D8",
+      "gpio": "P1.04",
+      "review_U1_pad": 11,
+      "QIAA_ball": "U24"
+    },
+    "ROW1": {
+      "edge_label": "D9",
+      "gpio": "P1.06",
+      "review_U1_pad": 12,
+      "QIAA_ball": "R24"
+    },
+    "ROW2": {
+      "edge_label": "D21",
+      "gpio": "P0.31",
+      "review_U1_pad": 17,
+      "QIAA_ball": "A8"
+    },
+    "ROW3": {
+      "edge_label": "D20",
+      "gpio": "P0.29",
+      "review_U1_pad": 18,
+      "QIAA_ball": "A10"
+    },
+    "COL0": {
+      "edge_label": "D19",
+      "gpio": "P0.02",
+      "review_U1_pad": 19,
+      "QIAA_ball": "A12"
+    },
+    "COL1": {
+      "edge_label": "D18",
+      "gpio": "P1.15",
+      "review_U1_pad": 20,
+      "QIAA_ball": "A14"
+    },
+    "COL2": {
+      "edge_label": "D15",
+      "gpio": "P1.13",
+      "review_U1_pad": 21,
+      "QIAA_ball": "A16"
+    },
+    "COL3": {
+      "edge_label": "D14",
+      "gpio": "P1.11",
+      "review_U1_pad": 22,
+      "QIAA_ball": "B19"
+    },
+    "COL4": {
+      "edge_label": "D0",
+      "gpio": "P0.08",
+      "review_U1_pad": 2,
+      "QIAA_ball": "N1"
+    },
+    "COL5": {
+      "edge_label": "D1",
+      "gpio": "P0.06",
+      "review_U1_pad": 1,
+      "QIAA_ball": "L1"
+    }
+  },
+  "qspi": {
+    "FLASH_CS_N": {
+      "edge_label": "D2",
+      "gpio": "P0.17",
+      "review_U1_pad": 5,
+      "QIAA_ball": "AD12",
+      "U2_pad": 1
+    },
+    "FLASH_CLK": {
+      "edge_label": "D4",
+      "gpio": "P0.22",
+      "review_U1_pad": 7,
+      "QIAA_ball": "AD18",
+      "U2_pad": 6
+    },
+    "FLASH_IO0": {
+      "edge_label": "D5",
+      "gpio": "P0.24",
+      "review_U1_pad": 8,
+      "QIAA_ball": "AD20",
+      "U2_pad": 5
+    },
+    "FLASH_IO1": {
+      "edge_label": "D6",
+      "gpio": "P1.00",
+      "review_U1_pad": 9,
+      "QIAA_ball": "AD22",
+      "U2_pad": 2
+    },
+    "FLASH_IO2": {
+      "edge_label": "D7",
+      "gpio": "P0.11",
+      "review_U1_pad": 10,
+      "QIAA_ball": "T2",
+      "U2_pad": 3
+    },
+    "FLASH_IO3": {
+      "edge_label": "D3",
+      "gpio": "P0.20",
+      "review_U1_pad": 6,
+      "QIAA_ball": "AD16",
+      "U2_pad": 7
+    }
+  },
+  "right_display": {
+    "VIEW_CS_ACTIVE_HIGH": {
+      "edge_label": "D4",
+      "gpio": "P0.22",
+      "review_U1_pad": 7,
+      "QIAA_ball": "AD18"
+    },
+    "VIEW_MOSI": {
+      "edge_label": "D2",
+      "gpio": "P0.17",
+      "review_U1_pad": 5,
+      "QIAA_ball": "AD12"
+    },
+    "VIEW_SCK": {
+      "edge_label": "D3",
+      "gpio": "P0.20",
+      "review_U1_pad": 6,
+      "QIAA_ball": "AD16"
+    }
+  },
+  "right_scan": {
+    "columns": [
+      "COL5",
+      "COL4",
+      "COL3",
+      "COL2",
+      "COL1",
+      "COL0"
+    ],
+    "global_col_offset": 6,
+    "thumb_scan_cells": [
+      "R3C0",
+      "R3C1",
+      "R3C2"
+    ]
+  },
+  "rgb_proposed": {
+    "data": {
+      "nano_label": "D16",
+      "gpio": "P0.10",
+      "nano_pad": 23
+    },
+    "enable": {
+      "nano_label": "D10",
+      "gpio": "P0.09",
+      "nano_pad": 24
+    },
+    "status": "candidate allocation; disable NFC pin function and verify ZMK transport/timers before schematic lock"
+  },
+  "flash_enable_integrated": {
+    "gpio": "P0.13",
+    "status": "candidate; explicit hardware/firmware polarity review required"
+  },
+  "baseline": {
+    "tag": "draft-a-baseline",
+    "commit": "bea6723001162899c225e7e8fa6900164e1bc3ee"
+  },
+  "population": {
+    "standard": "left flash and its support DNP; flash-free firmware must boot normally",
+    "javelin": "left flash + decoupling + CS bias populated; external dictionary firmware",
+    "rgb": "0,1,3 pixels per selected half; contiguous chain prefix or explicit DNP bypass",
+    "nano_right_default": "nice!view; optional RGB-only alternative",
+    "simultaneous_rgb_display": "independent pin allocation reserved; concurrent assembly is not the approved default"
+  },
+  "active_project": "choc-corne-flash",
+  "integrated_replacement": "set aside by owner",
+  "geometry": "Typeractive Choc 42-key reference, including its thumbs; not Zen/Draft B",
+  "mvp": {
+    "left": "nice!nano + tested matrix + QSPI flash + battery/power/reset",
+    "right": "nice!nano + same tested matrix + nice!view + battery/power/reset",
+    "deferred": [
+      "RGB",
+      "squid artwork",
+      "integrated SoC",
+      "Zen case adaptation",
+      "new elaborate case design"
+    ]
+  }
+}

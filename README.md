@@ -1,3 +1,13 @@
+# Active goal: Choc Corne with left flash / right nice!view
+
+**[Current scope draft](projects/choc-corne-flash/README.md)** · [Current handoff](docs/CHATGPT-HANDOFF.md) · [Typeractive geometry reference](projects/choc-corne-flash/reference/README.md)
+
+The owner simplified the goal: nice!nano-based Typeractive-style Choc Corne, QSPI on the left and nice!view on the right. Zen-specific geometry and integrated electronics are retired from active work; RGB/art are deferred. The new reference is inferred and unrouted; this scope update does not claim another completed PCB.
+
+The checked Draft B work below is preserved historical context, not the geometry for the new target.
+
+---
+
 # zenR4-pcb — Nano Independent
 
 Active direction: our own 42-key Choc nice!nano keyboard and case, inspired by Zen geometry. The owner is pursuing an original spare PCB for their Zen; integrated replacement development is set aside.
