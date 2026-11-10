@@ -1,0 +1,418 @@
+{
+  "project": "nano-independent",
+  "revision": "draft-1",
+  "stage": "Draft B routed carrier outline revision; new display/RGB circuitry still planned",
+  "case": "new independently designed case inspired by Zen",
+  "controller": "nice!nano v2; edge-hole connections",
+  "switches": {
+    "count": 42,
+    "pitch": "Choc",
+    "starting_geometry": "Zen registered centers",
+    "placement_policy": "start with Zen; intentional ergonomic changes allowed"
+  },
+  "parts_side": "chosen to support accessible nano, left flash and right display; no original-case side constraint",
+  "display": "right nice!view; left none",
+  "features": {
+    "left_flash": "optional population",
+    "rgb": "optional on both halves",
+    "artwork": "squid concepts; no decorative copper routed yet"
+  },
+  "usb": {
+    "policy": "connector and case opening placed together around nano",
+    "reference_only": null
+  },
+  "reset": {
+    "policy": "choose accessible reset/button position in the new case; no original Zen reset constraint"
+  },
+  "baseline_geometry": {
+    "left": [
+      {
+        "row": 0,
+        "col": 0,
+        "xy": [
+          -122.8775,
+          27.323
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "xy": [
+          -122.8775,
+          10.332999999999998
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "xy": [
+          -122.857,
+          -6.667
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "xy": [
+          -104.866,
+          27.343000000000004
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "xy": [
+          -104.866,
+          10.353000000000002
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "xy": [
+          -104.846,
+          -6.647
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "xy": [
+          -86.865,
+          32.103
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "xy": [
+          -86.865,
+          15.113
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "xy": [
+          -86.845,
+          -1.887
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "xy": [
+          -68.877,
+          34.461
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "xy": [
+          -68.877,
+          17.471
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "xy": [
+          -68.857,
+          0.46999999999999975
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "xy": [
+          -50.856,
+          32.096
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "xy": [
+          -50.856,
+          15.106000000000002
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "xy": [
+          -50.835,
+          -1.8940000000000001
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "xy": [
+          -32.812,
+          29.713
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "xy": [
+          -32.812,
+          12.722999999999999
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "xy": [
+          -32.817,
+          -4.276999999999999
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "xy": [
+          -61.376000000000005,
+          -21.564
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "xy": [
+          -40.3745,
+          -24.317
+        ],
+        "angle": -14.99830787030487
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "xy": [
+          -18.124000000000002,
+          -28.07
+        ],
+        "angle": -30.000727780827376
+      }
+    ],
+    "right": [
+      {
+        "row": 0,
+        "col": 0,
+        "xy": [
+          133.571,
+          27.2435
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "xy": [
+          133.571,
+          10.2535
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "xy": [
+          133.571,
+          -6.6265
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "xy": [
+          115.57,
+          27.232999999999997
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "xy": [
+          115.57,
+          10.242999999999999
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "xy": [
+          115.57,
+          -6.6370000000000005
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "xy": [
+          97.579,
+          31.9985
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "xy": [
+          97.579,
+          15.0085
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "xy": [
+          97.579,
+          -1.8715000000000002
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "xy": [
+          79.571,
+          34.3835
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "xy": [
+          79.571,
+          17.3935
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "xy": [
+          79.571,
+          0.5135000000000001
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "xy": [
+          61.5495,
+          32.0035
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "xy": [
+          61.5495,
+          15.0135
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "xy": [
+          61.5495,
+          -1.8664999999999998
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "xy": [
+          43.566,
+          29.6235
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "xy": [
+          43.566,
+          12.6335
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "xy": [
+          43.566,
+          -4.2465
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "xy": [
+          72.068,
+          -21.498
+        ],
+        "angle": 0.0
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "xy": [
+          51.0435,
+          -24.26
+        ],
+        "angle": 15.000614945837675
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "xy": [
+          28.773000000000003,
+          -28.027
+        ],
+        "angle": 30.000412214912046
+      }
+    ]
+  },
+  "baseline_validation_inherited": false,
+  "not_implemented": [
+    "new display/RGB schematic and routing",
+    "final optical/assembly arrangement",
+    "PCB-specific firmware build and hardware validation"
+  ],
+  "active_scope": "Own nice!nano keyboard and case. Integrated Zen repair work set aside by owner."
+}

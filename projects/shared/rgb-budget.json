@@ -1,0 +1,89 @@
+{
+  "status": "calculated estimate; no hardware measurements",
+  "assumptions": {
+    "pixel_control_ma_while_on": 0.2,
+    "channel_full_scale_ma": 5,
+    "breath_mean_fraction_of_peak": 0.5,
+    "excluded": [
+      "converter efficiency/startup",
+      "gate/buffer/board leakage",
+      "power-up/reset settling",
+      "MCU/radio/flash/display current",
+      "perceptual gamma and actual pixel transfer behavior"
+    ]
+  },
+  "cases": [
+    {
+      "pixels": 1,
+      "events_per_day": 50,
+      "pulse_seconds": 0.5,
+      "peak_code_per_active_channel": 8,
+      "active_channels": 2,
+      "powered_mean_current_ma": 0.3568627450980392,
+      "powered_peak_current_ma": 0.5137254901960784,
+      "powered_seconds_per_day": 25.0,
+      "charge_mah_per_day": 0.0024782135076252725,
+      "equivalent_average_ua": 0.10325889615105302
+    },
+    {
+      "pixels": 1,
+      "events_per_day": 200,
+      "pulse_seconds": 0.5,
+      "peak_code_per_active_channel": 8,
+      "active_channels": 2,
+      "powered_mean_current_ma": 0.3568627450980392,
+      "powered_peak_current_ma": 0.5137254901960784,
+      "powered_seconds_per_day": 100.0,
+      "charge_mah_per_day": 0.00991285403050109,
+      "equivalent_average_ua": 0.4130355846042121
+    },
+    {
+      "pixels": 1,
+      "events_per_day": 1000,
+      "pulse_seconds": 0.5,
+      "peak_code_per_active_channel": 8,
+      "active_channels": 2,
+      "powered_mean_current_ma": 0.3568627450980392,
+      "powered_peak_current_ma": 0.5137254901960784,
+      "powered_seconds_per_day": 500.0,
+      "charge_mah_per_day": 0.049564270152505446,
+      "equivalent_average_ua": 2.0651779230210603
+    },
+    {
+      "pixels": 3,
+      "events_per_day": 50,
+      "pulse_seconds": 0.5,
+      "peak_code_per_active_channel": 8,
+      "active_channels": 2,
+      "powered_mean_current_ma": 1.0705882352941176,
+      "powered_peak_current_ma": 1.5411764705882351,
+      "powered_seconds_per_day": 25.0,
+      "charge_mah_per_day": 0.0074346405228758175,
+      "equivalent_average_ua": 0.3097766884531591
+    },
+    {
+      "pixels": 3,
+      "events_per_day": 200,
+      "pulse_seconds": 0.5,
+      "peak_code_per_active_channel": 8,
+      "active_channels": 2,
+      "powered_mean_current_ma": 1.0705882352941176,
+      "powered_peak_current_ma": 1.5411764705882351,
+      "powered_seconds_per_day": 100.0,
+      "charge_mah_per_day": 0.02973856209150327,
+      "equivalent_average_ua": 1.2391067538126364
+    },
+    {
+      "pixels": 3,
+      "events_per_day": 1000,
+      "pulse_seconds": 0.5,
+      "peak_code_per_active_channel": 8,
+      "active_channels": 2,
+      "powered_mean_current_ma": 1.0705882352941176,
+      "powered_peak_current_ma": 1.5411764705882351,
+      "powered_seconds_per_day": 500.0,
+      "charge_mah_per_day": 0.14869281045751634,
+      "equivalent_average_ua": 6.19553376906318
+    }
+  ]
+}

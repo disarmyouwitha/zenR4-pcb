@@ -17,3 +17,4 @@ analysis-tools/freerouting/
 # Generated upload bundles live outside version control
 *.zip
 !docs/zenR4-pcb-chatgpt-handoff.zip
+!docs/nano-independent-draft-b.zip

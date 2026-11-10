@@ -1,34 +1,22 @@
-# zenR4-pcb
+# zenR4-pcb — Nano Independent
 
-A custom wireless, Choc-spaced replacement PCB prototype for a **42-key Corne-ish Zen V2** metal case. Two nice!nano v2 controllers, the same tested matrix pinout on both halves, and left-only QSPI flash for Javelin.
+Active direction: our own 42-key Choc nice!nano keyboard and case, inspired by Zen geometry. The owner is pursuing an original spare PCB for their Zen; integrated replacement development is set aside.
 
-**DRAFT A: routed, electrically checked, unbuilt.** Both halves passed native KiCad ERC, DRC, unconnected checks and schematic parity with zero issues. Physical fit and assembly are still open. The optional right nice!view footprint is absent.
+## Current draft: B
 
-![Actual routed boards](r4-layout/layout-preview.png)
+![Draft B](projects/nano-independent/draft-b/layout-preview.png)
 
-## Read first
+- Old rear USB reliefs removed; USB-C comes from the nice!nano.
+- Thumb clearance bubble replaced by a smooth, mirrored contour.
+- All electrical objects and switch centers preserved from Draft A.
+- Both halves pass native ERC, DRC, unconnected and schematic parity checks with zero issues.
 
-- [ChatGPT handoff — full context, pin tables, decisions and next steps](docs/CHATGPT-HANDOFF.md)
-- [Start a new ChatGPT conversation](docs/START-HERE.md)
-- [Download the ChatGPT upload ZIP](docs/zenR4-pcb-chatgpt-handoff.zip) — 2.4 MiB, including seven PNGs and native schematic/board files
-- [Layout and mechanical notes](r4-layout/README.md)
-- [Final check snapshot and hashes](r4-layout/checks/validation.json)
-- [Annotated images](docs/images/) and [direct schematic exports](docs/schematics/)
+**[Open Draft B](projects/nano-independent/draft-b/README.md)** · [Thumb before/after](projects/nano-independent/draft-b/thumb-before-after.png) · [Current ChatGPT handoff](docs/CHATGPT-HANDOFF.md) · [Download Draft B packet](docs/nano-independent-draft-b.zip)
 
-Open `r4-layout/zen-r4-left.kicad_pro` or `r4-layout/zen-r4-right.kicad_pro` in KiCad 10. Project-local symbol and footprint libraries are included. Run `sh r4-layout/run-checks.sh` to repeat the native checks; set `KICAD_CLI` for a different installation.
+Right nice!view, optional flash population, optional RGB and squid art remain the target. Their new display/RGB circuits and the new case are not implemented by this outline-only revision. See [project direction](projects/nano-independent/README.md).
 
-## Next steps
+Open the `zen-r4-left.kicad_pro` / `zen-r4-right.kicad_pro` under `projects/nano-independent/draft-b/`. `r4-layout/` is the unchanged Draft A baseline, also tagged `draft-a-baseline`; its old case-fit notes and upload ZIP are historical. Experimental generators can overwrite finished work.
 
-1. Resolve the new rear USB opening at the nano location; it is offset from the archived original ports.
-2. Use the included actual-size paper templates and 3D-printable dummy boards to check the **new** outline, thumb/boss geometry and controller/base stack.
-3. Finalize nano soldering, battery protection/retention, power/reset access, exact BOM and assembly method; review QSPI/radio/power layout.
-4. Decide whether the first pair keeps the display omitted or needs a separate mechanically proven right-display revision.
-5. Freeze the reviewed prototype, generate/review manufacturing outputs, order a small prototype run, then bring up and test the real boards.
+For tomorrow's ChatGPT discussion, use [START-HERE](docs/START-HERE.md). Private GitHub links may require your signed-in account; upload the handoff/images if ChatGPT cannot read the repo.
 
-The user's existing Typeractive socket and underside-nano dry fits are accepted. They do not certify this new USB position or our modified perimeter. No production Gerbers, order or PCBA quote has been released.
-
-## Repository scope
-
-`r4-layout/` is the current source of truth. `zen-r4-review/` is earlier electrical/firmware context. Experimental scripts in `analysis-tools/` can overwrite finished geometry/routing; read [the tooling notes](analysis-tools/README.md) before running them. The working keyboard firmware was not modified or flashed.
-
-This repository is private by default and contains restricted reference CAD. See [attribution and third-party notices](ATTRIBUTION.md) before any future public release.
+Repository visibility remains private. Restricted source CAD and derived files retain their attribution and source restrictions; see [ATTRIBUTION](ATTRIBUTION.md). No hardware/fabrication order or production readiness is claimed.

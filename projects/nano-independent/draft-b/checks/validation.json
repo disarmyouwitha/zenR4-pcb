@@ -1,0 +1,29 @@
+{
+  "snapshot_date": "2026-11-09",
+  "revision": "Nano Independent Draft B",
+  "scope": "outer outline and drawing-note revision; electrical payload and schematics unchanged",
+  "hardware_tested": false,
+  "baseline_files_unchanged": true,
+  "halves": {
+    "left": {
+      "erc": 0,
+      "drc": 0,
+      "unconnected": 0,
+      "schematic_parity": 0,
+      "sha256": {
+        "zen-r4-left.kicad_pcb": "5edc17121e2c7935016991c34b94a43a6386bc31dd1213ae9c3696e2395682f1",
+        "zen-r4-left.kicad_sch": "3faf4189634d7078c085b1f7f729d7261b60afb46cd29b92300d6dd3fb5e0f89"
+      }
+    },
+    "right": {
+      "erc": 0,
+      "drc": 0,
+      "unconnected": 0,
+      "schematic_parity": 0,
+      "sha256": {
+        "zen-r4-right.kicad_pcb": "72e5e5886d1ae1bfade6118b67f81ae015a46353e95bc1becd8af9d62f9f64ea",
+        "zen-r4-right.kicad_sch": "7eb0c4c4911992a70e1d4ca0d63f9037fa207ee54a48dc493078faa11500dcc1"
+      }
+    }
+  }
+}

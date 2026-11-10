@@ -1,0 +1,18 @@
+{
+  "left": {
+    "outer_segments_removed": 156,
+    "outer_segments_added": 103,
+    "battery_edges_preserved": 4,
+    "electrical_items_exactly_unchanged": 758,
+    "baseline_electrical_payload_sha256": "dcab3f972fbe34fc146a22f651ca5846204f9062ab71717560d0a2cc6472f9d4",
+    "new_electrical_payload_sha256": "dcab3f972fbe34fc146a22f651ca5846204f9062ab71717560d0a2cc6472f9d4"
+  },
+  "right": {
+    "outer_segments_removed": 160,
+    "outer_segments_added": 103,
+    "battery_edges_preserved": 4,
+    "electrical_items_exactly_unchanged": 593,
+    "baseline_electrical_payload_sha256": "375006cf2cb1b7624a615213dd59c23aa8286bb1a20f55b3a0bf90785ca93f5e",
+    "new_electrical_payload_sha256": "375006cf2cb1b7624a615213dd59c23aa8286bb1a20f55b3a0bf90785ca93f5e"
+  }
+}

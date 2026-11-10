@@ -1,0 +1,22 @@
+{
+  "left": {
+    "bare_pcb_mesh_watertight": true,
+    "thickness_mm": 1.6,
+    "new_outer_area_mm2": 8587.35281536701,
+    "added_area_mm2": 115.64424979405486,
+    "removed_area_mm2": 2.2905962668003522e-15,
+    "electrical_parts_and_tracks": "unchanged",
+    "old_mount_holes": "retained starting references; new-case mounts not designed"
+  },
+  "right": {
+    "bare_pcb_mesh_watertight": true,
+    "thickness_mm": 1.6,
+    "new_outer_area_mm2": 8587.35281536701,
+    "added_area_mm2": 111.96840558401556,
+    "removed_area_mm2": 2.951138518944891e-14,
+    "electrical_parts_and_tracks": "unchanged",
+    "old_mount_holes": "retained starting references; new-case mounts not designed"
+  },
+  "mirror_outline_hausdorff_mm": 0.0,
+  "mirror_outline_symmetric_difference_mm2": 0.0
+}

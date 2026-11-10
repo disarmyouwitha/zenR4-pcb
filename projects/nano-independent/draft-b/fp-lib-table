@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "ZenR4") (type "KiCad") (uri "${KIPRJMOD}/../../../r4-layout/footprints/ZenR4.pretty") (options "") (descr "Shared checked library")))
