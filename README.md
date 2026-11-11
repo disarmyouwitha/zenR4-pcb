@@ -1,3 +1,9 @@
+# Steno Squid QSPI expansion module
+
+Current hardware work is the [Steno Squid eight-contact daughterboard](projects/steno-squid/README.md) for the Boardsource Wireless Corne SMT. Its first electrical proposal is available in native KiCad. Connector dimensions, supply verification and exact flash package are the next design inputs.
+
+## Completed Draft-Corne routing reference
+
 # Draft-Corne: Choc Corne with left flash / right nice!view
 
 **[Draft C files and status](projects/choc-corne-flash/draft-c/README.md)** · [ChatGPT handoff](docs/CHATGPT-HANDOFF.md) · [Download packet](docs/draft-corne.zip)

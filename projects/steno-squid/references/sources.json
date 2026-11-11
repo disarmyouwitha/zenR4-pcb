@@ -1,0 +1,9 @@
+{
+  "review_date": "2026-11-10",
+  "boardsource_firmware_commit_at_review": "2158104902e164c317e35f53dfa0ca1e36e1a751",
+  "host_pinout": "https://boardsource.xyz/blogs/guides/wireless-smt-corne-docs",
+  "boardsource_firmware": "https://github.com/boardsource/wireless-corne_zmk_config",
+  "adafruit_reference": "https://github.com/adafruit/Adafruit-QSPI-DIP-Breakout-PCB",
+  "adafruit_product": "https://www.adafruit.com/product/5634",
+  "winbond_candidate_package_status": "https://www.winbond.com/hq/product/code-storage-flash/qspi-nor/w25q-jv/?__locale=en&partNo=W25Q128JVSIQ"
+}

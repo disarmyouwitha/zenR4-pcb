@@ -1,3 +1,9 @@
+# Active scope: Steno Squid
+
+Read projects/steno-squid/README.md first. The owner prioritized an eight-contact QSPI flash daughterboard for the Boardsource Wireless Corne SMT left header. Reconsider the six GPIO assignments for routing as needed. The Adafruit four-contact alignment is a prototype observation. Preserve existing Zen/Corne projects. Connector geometry, rail capability and exact flash package require verification. Production Gerbers, orders and public releases require explicit approval.
+
+## Earlier keyboard scope, historical
+
 # Active scope: Choc Corne + flash
 
 Read `docs/CHATGPT-HANDOFF.md` and `projects/choc-corne-flash/README.md` first. Latest goal: Typeractive-style 42-key Choc Corne, nice!nano, left QSPI flash, right nice!view. Keep this first build small; RGB/artwork and integrated SoC work are deferred. No Zen shell, Zen-specific thumb/cutout/mount geometry or elaborate case adaptation in the active design.

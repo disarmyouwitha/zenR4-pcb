@@ -1,0 +1,21 @@
+{
+  "revision": "0",
+  "status": "electrical proposal, mechanical interface unverified",
+  "preferred_connection": "all eight expansion contacts directly",
+  "header_pitch_mm": null,
+  "header_drill_mm": null,
+  "mating_face": null,
+  "module_outline_mm": null,
+  "flash_ordering_code": null,
+  "host_voltage_measured": false,
+  "contacts": [
+    {"position":1,"gpio":"P0.07","signal":"CS_N","flash_pad":1},
+    {"position":2,"gpio":"P0.21","signal":"IO0","flash_pad":5},
+    {"position":3,"gpio":"P0.12","signal":"CLK","flash_pad":6},
+    {"position":4,"gpio":"P0.23","signal":"IO3","flash_pad":7},
+    {"position":5,"host":"VCC switched by P0.31","signal":"VCC_SW","flash_pad":8},
+    {"position":6,"host":"GND","signal":"GND","flash_pad":4},
+    {"position":7,"gpio":"P0.19","signal":"IO1","flash_pad":2},
+    {"position":8,"gpio":"P0.05","signal":"IO2","flash_pad":3}
+  ]
+}

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/nap/Documents/new_code/zenR4-pcb/projects/steno-squid/draft-0/steno-squid.kicad_sch</source>
+    <date>2026-11-10T23:59:32</date>
+    <tool>Eeschema 10.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Steno Squid - 8-contact QSPI electrical proposal</title>
+        <company/>
+        <rev>0 / electrical only</rev>
+        <date/>
+        <source>steno-squid.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="StenoSquid" part="Capacitor" description=""/>
+      <property name="Sheetname" value="steno-squid"/>
+      <property name="Sheetfile" value="steno-squid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e952e1d-2003-4b23-a132-45e8d4663ea0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1uF / optional pending rail review</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="StenoSquid" part="Capacitor" description=""/>
+      <property name="Sheetname" value="steno-squid"/>
+      <property name="Sheetfile" value="steno-squid.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef832ce1-7a25-48e7-a309-0f8b649a4766</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Boardsource expansion / geometry TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="StenoSquid" part="Expansion8" description=""/>
+      <property name="Sheetname" value="steno-squid"/>
+      <property name="Sheetfile" value="steno-squid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>401e89bc-a3de-4793-a383-5a971fee21d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="StenoSquid" part="Resistor" description=""/>
+      <property name="Sheetname" value="steno-squid"/>
+      <property name="Sheetfile" value="steno-squid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a29fa79-dcef-4e79-b5b5-35ee1eddcbe4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>W25Q128JV / exact suffix pending</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="StenoSquid" part="W25Q128JV" description=""/>
+      <property name="Sheetname" value="steno-squid"/>
+      <property name="Sheetfile" value="steno-squid.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>661342d2-aef9-4b82-ac9b-7c2a5f37b036</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="StenoSquid" part="Capacitor">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="StenoSquid" part="Expansion8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Expansion8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CS_N" type="passive"/>
+        <pin num="2" name="IO0" type="passive"/>
+        <pin num="3" name="CLK" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="VCC_SW" type="power_out"/>
+        <pin num="6" name="GND" type="power_out"/>
+        <pin num="7" name="IO1" type="passive"/>
+        <pin num="8" name="IO2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="StenoSquid" part="Resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="StenoSquid" part="W25Q128JV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CS#" type="input"/>
+        <pin num="2" name="IO1" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="IO0" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="StenoSquid">
+      <uri>${KIPRJMOD}/steno-squid.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CLK" class="Default">
+      <node ref="J1" pin="3" pinfunction="CLK_3" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CLK_6" pintype="input"/>
+    </net>
+    <net code="2" name="/CS_N" class="Default">
+      <node ref="J1" pin="1" pinfunction="CS_N_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="CS#_1" pintype="input"/>
+    </net>
+    <net code="3" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="GND_6" pintype="power_out"/>
+      <node ref="U1" pin="4" pinfunction="GND_4" pintype="power_in"/>
+    </net>
+    <net code="4" name="/IO0" class="Default">
+      <node ref="J1" pin="2" pinfunction="IO0_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IO0_5" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/IO1" class="Default">
+      <node ref="J1" pin="7" pinfunction="IO1_7" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IO1_2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/IO2" class="Default">
+      <node ref="J1" pin="8" pinfunction="IO2_8" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IO2_3" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/IO3" class="Default">
+      <node ref="J1" pin="4" pinfunction="IO3_4" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IO3_7" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/VCC_SW" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="VCC_SW_5" pintype="power_out"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
